@@ -2,28 +2,36 @@
   "manifestVersion": "1.0",
   "appVersion": "1.8.2",
   "buildCode": 10,
-  "updatedAt": "2026-10-13T00:00:00Z",
+  "updatedAt": "2026-10-13T22:00:00Z",
   "packages": {
     "id": {
       "language": "id",
       "displayName": "Bahasa Indonesia",
       "fileName": "golden_shards.zip",
-      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards.zip",
-      "mirrorUrl": "https://cdn.jsdelivr.net/gh/AuraXaviera/HonorOfKingsAce@main/shards/golden_shards.zip",
-      "sha256": "A1EE3BAA50084BCE76058E622FD374496A352C1BFFA9974025E9C4432C4363B7",
-      "sizeBytes": 50488643,
-      "shardsIncluded": ["1", "4", "10"],
+      "primaryUrl": "https://github.com/nanzareth/ZenithPatcher/releases/download/v1.8.2/golden_shards.zip",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/nanzareth/ZenithPatcher@main/shards/golden_shards.zip",
+      "sha256": "57A1804AB366D7BC478169D9360BAE38FCD99C98472CA9EF191746F4F209FD76",
+      "sizeBytes": 65644445,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
       "bitExactVerified": true
     },
     "en": {
       "language": "en",
       "displayName": "Global English",
       "fileName": "golden_shards_en.zip",
-      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards_en.zip",
-      "mirrorUrl": "https://cdn.jsdelivr.net/gh/AuraXaviera/HonorOfKingsAce@main/shards/golden_shards_en.zip",
-      "sha256": "2FDF9B65707031342C3EA76E5398E62E09E233697ECABFC59F373FC13C98612F",
-      "sizeBytes": 49014339,
-      "shardsIncluded": ["1", "4", "10"],
+      "primaryUrl": "https://github.com/nanzareth/ZenithPatcher/releases/download/v1.8.2/golden_shards_en.zip",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/nanzareth/ZenithPatcher@main/shards/golden_shards_en.zip",
+      "sha256": "7332829F39D1DBFCC04A5B354DC01C2E25D0E29873ECEDDA5EE87EE385BE017D",
+      "sizeBytes": 65646262,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
       "bitExactVerified": true
     }
   }
