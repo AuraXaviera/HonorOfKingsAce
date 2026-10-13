@@ -80,6 +80,11 @@ COMPACT_TERMS_ID = {
     '铤而走险': 'Judi Keberuntungan',
     '回合': 'Ronde ',
     'S1万象启程': 'S1 Awal Mula',
+    '<a href=4><color=#ffffff>╤<b>凯旋</b></color></a>：获得{0|1}{Energy}。': '<a href=4><color=#ffffff>╤<b>Triumph</b></color></a>: +{0|1}{Energy}.',
+    '<a href=4><color=#ffffff>╤<b>凯旋</b></color></a>：获得{0|2}{Energy}。': '<a href=4><color=#ffffff>╤<b>Triumph</b></color></a>: +{0|2}{Energy}.',
+    '棋手升级时，{LordExp}+{3|2}。': 'Saat naik level, {LordExp}+{3|2}.',
+    '棋手升级时，{LordExp}+{3|4}。': 'Saat naik level, {LordExp}+{3|4}.',
+    '本回合战斗开始时，弈星随机<color=#ffffff><b>复制</b></color>1名敌方英雄。': 'Mulai ronde, Yixing salin 1 Hero lawan acak.',
 }
 
 # Compact MOBA Terms (English)
@@ -121,7 +126,126 @@ COMPACT_TERMS_EN = {
     '铤而走险': "Fortune's Gamble",
     '回合': 'Round ',
     'S1万象启程': 'S1 Genesis',
+    '<a href=4><color=#ffffff>╤<b>凯旋</b></color></a>：获得{0|1}{Energy}。': '<a href=4><color=#ffffff>╤<b>Triumph</b></color></a>: +{0|1}{Energy}.',
+    '<a href=4><color=#ffffff>╤<b>凯旋</b></color></a>：获得{0|2}{Energy}。': '<a href=4><color=#ffffff>╤<b>Triumph</b></color></a>: +{0|2}{Energy}.',
+    '棋手升级时，{LordExp}+{3|2}。': 'On level up, {LordExp}+{3|2}.',
+    '棋手升级时，{LordExp}+{3|4}。': 'On level up, {LordExp}+{3|4}.',
+    '本回合战斗开始时，弈星随机<color=#ffffff><b>复制</b></color>1名敌方英雄。': 'At round start, Yixing copies 1 random enemy Hero.',
 }
+
+COMPACT_RULES_ID = [
+    ('。', '.'), ('，', ','), ('：', ':'), ('！', '!'), ('？', '?'),
+    ('（', '('), ('）', ')'), ('【', '['), ('】', ']'), ('、', ','),
+    ('；', ';'), ('“', '"'), ('”', '"'), ('‘', "'"), ('’', "'"),
+    ('Mendapatkan', 'Dapat'), ('mendapatkan', 'dapat'),
+    ('Dapatkan', 'Dapat'), ('dapatkan', 'dapat'),
+    ('Memperoleh', 'Dapat'), ('memperoleh', 'dapat'),
+    ('Memberikan', 'Beri'), ('memberikan', 'beri'),
+    ('Meningkatkan', 'Tingkatkan'), ('meningkatkan', 'tingkatkan'),
+    ('Mengurangi', 'Kurangi'), ('mengurangi', 'kurangi'),
+    ('Menyebabkan', 'Picukan'), ('menyebabkan', 'picu'),
+    ('Menghasilkan', 'Beri'), ('menghasilkan', 'beri'),
+    ('Menggunakan', 'Pakai'), ('menggunakan', 'pakai'),
+    ('Digunakan', 'Dipakai'), ('digunakan', 'dipakai'),
+    ('Pemain Catur', 'Player'), ('pemain catur', 'player'),
+    ('Kartu Hero', 'Hero'), ('kartu hero', 'hero'),
+    ('Hero Card', 'Hero'), ('hero card', 'hero'),
+    ('Kartu Peralatan', 'Gear'), ('kartu peralatan', 'gear'),
+    ('Peralatan', 'Gear'), ('peralatan', 'gear'),
+    ('Kesehatan Maksimal', 'Max HP'), ('kesehatan maksimal', 'max HP'),
+    ('Kesehatan', 'HP'), ('kesehatan', 'HP'),
+    ('Kerusakan Fisik', 'Phys DMG'), ('kerusakan fisik', 'Phys DMG'),
+    ('Kerusakan Sihir', 'Mag DMG'), ('kerusakan sihir', 'Mag DMG'),
+    ('Kerusakan Sebenarnya', 'True DMG'), ('kerusakan sebenarnya', 'True DMG'),
+    ('Kerusakan', 'DMG'), ('kerusakan', 'DMG'),
+    ('Serangan Fisik', 'Phys ATK'), ('serangan fisik', 'Phys ATK'),
+    ('Serangan Sihir', 'Mag ATK'), ('serangan sihir', 'Mag ATK'),
+    ('Serangan', 'ATK'), ('serangan', 'ATK'),
+    ('Pertahanan Fisik', 'Phys DEF'), ('pertahanan fisik', 'Phys DEF'),
+    ('Pertahanan Sihir', 'Mag DEF'), ('pertahanan sihir', 'Mag DEF'),
+    ('Pertahanan', 'DEF'), ('pertahanan', 'DEF'),
+    ('Kecepatan Gerak', 'MS'), ('kecepatan gerak', 'MS'),
+    ('Kecepatan Serangan', 'AS'), ('kecepatan serangan', 'AS'),
+    ('Kecepatan', 'SPD'), ('kecepatan', 'SPD'),
+    ('Pengalaman', 'EXP'), ('pengalaman', 'EXP'),
+    ('Tingkat', 'Lv'), ('tingkat', 'Lv'),
+    ('Level', 'Lv'), ('level', 'Lv'),
+    ('putaran', 'ronde'), ('Putaran', 'Ronde'),
+    ('Pertempuran', 'Battle'), ('pertempuran', 'battle'),
+    ('Kemampuan', 'Skill'), ('kemampuan', 'skill'),
+    ('Kekuatan Kemampuan', 'AP'), ('kekuatan kemampuan', 'AP'),
+    ('Kekuatan Skill', 'AP'), ('kekuatan skill', 'AP'),
+    ('Tambahan', 'Bonus'), ('tambahan', 'bonus'),
+    ('secara acak', 'acak'), ('Secara acak', 'Acak'),
+    ('memiliki peluang', 'berpeluang'), ('Memiliki peluang', 'Berpeluang'),
+    ('Koin Kuno', 'Koin'), ('koin kuno', 'koin'),
+    (' yang ', ' '), (' Yang ', ' '),
+    (' akan ', ' '), (' Akan ', ' '),
+    (' untuk ', ' '), (' Untuk ', ' '),
+    (' Anda', ''), (' anda', ''),
+    (' adalah ', ' '),
+]
+
+PUNCT_RULES = [
+    ('。', '.'), ('，', ','), ('：', ':'), ('！', '!'), ('？', '?'),
+    ('（', '('), ('）', ')'), ('【', '['), ('】', ']'), ('、', ','),
+    ('；', ';'), ('“', '"'), ('”', '"'), ('‘', "'"), ('’', "'"),
+]
+
+import re
+
+def compact_text(text, is_en=False):
+    if not text:
+        return text
+    res = text
+    rules = PUNCT_RULES if is_en else COMPACT_RULES_ID
+    for old, new in rules:
+        res = res.replace(old, new)
+    res = re.sub(r' +', ' ', res)
+    return res.strip()
+
+KEYWORD_SOL_ID = {
+    '#4A66036199430027#': 'Blink',
+    '#4A6605ADF08473E4#': 'Deploy',
+    '#4A6612AB1F2D0608#': 'Merge',
+    '#4A66163444B87D8B#': 'Keluar',
+    '#4A662B61AD14E169#': 'Kalah',
+    '#4A663327782A5833#': 'Lv Smt',
+    '#4A66458CC503A584#': 'Serang',
+    '#4A6653FCCA9A61B0#': 'Arcomia Core',
+    '#4A668850FFF91694#': 'Revive',
+    '#4A668D148E2A33BB#': 'Geser utk Merge',
+    '#4A66AE7BEC3A770D#': 'Curi',
+    '#4A66B1B2C9B0ECA5#': 'Lihat Toko',
+    '#4A66C68A7AB1AF0D#': 'Korban',
+    '#4A66CA4C52052142#': 'Gunakan di Toko',
+    '#4A66D52802E8DC92#': 'Flash',
+    '#4A66D545F260C380#': 'Triumph',
+    '#4A66DCA3D38FCAAC#': 'Prepare',
+    '#4A66EFCBB004A33A#': 'Totem'
+}
+
+KEYWORD_SOL_EN = {
+    '#4A66036199430027#': 'Blink',
+    '#4A6605ADF08473E4#': 'Deploy',
+    '#4A6612AB1F2D0608#': 'Merge',
+    '#4A66163444B87D8B#': 'Exit',
+    '#4A662B61AD14E169#': 'Defeat',
+    '#4A663327782A5833#': 'Lv Temp',
+    '#4A66458CC503A584#': 'Engage',
+    '#4A6653FCCA9A61B0#': 'Arcomia Core',
+    '#4A668850FFF91694#': 'Revive',
+    '#4A668D148E2A33BB#': 'Drag to Merge',
+    '#4A66AE7BEC3A770D#': 'Steal',
+    '#4A66B1B2C9B0ECA5#': 'Shop Info',
+    '#4A66C68A7AB1AF0D#': 'Sacrifice',
+    '#4A66CA4C52052142#': 'Use in Shop',
+    '#4A66D52802E8DC92#': 'Flash',
+    '#4A66D545F260C380#': 'Triumph',
+    '#4A66DCA3D38FCAAC#': 'Prepare',
+    '#4A66EFCBB004A33A#': 'Totem'
+}
+
 
 # Lobby & Drawer Table (0x616B)
 LOBBY_TABLE_ID = {
@@ -168,7 +292,7 @@ def make_rec(k, v):
     inner = f1 + f2
     return b'\n' + encode_varint(len(inner)) + inner
 
-def patch_table_generic(f, pkg, sm, fhash, label, catalog, priority_keys=None):
+def patch_table_generic(f, pkg, sm, fhash, label, catalog, priority_keys=None, is_en=False):
     if fhash not in sm:
         print(f"  [SKIP] 0x{fhash:016X} ({label}): not in slot map")
         return False
@@ -181,6 +305,8 @@ def patch_table_generic(f, pkg, sm, fhash, label, catalog, priority_keys=None):
         k = next(p[1].decode('utf-8', 'ignore') for p in parts if p[0] == 10)
         src = next(p[1].decode('utf-8', 'ignore') for p in parts if p[0] == 18)
         tgt = catalog.lookup(fhash, k, src)
+        if tgt and tgt != src:
+            tgt = compact_text(tgt, is_en=is_en)
         new_enc = enc
         diff = 0
         if tgt and tgt != src:
@@ -285,15 +411,27 @@ def patch_package_1(shard_path, is_en=False):
         raw_dd5b = pkg.extract(fhash_dd5b, sm)
         slots_dd5b = sorted(sm[fhash_dd5b].values(), key=lambda x:x.chunk_id)
         recs_dd5b = []
-        ui_prefixes = ('Title', 'Btn', 'Menu', 'Tab', 'Lobby', 'Confirm', 'Tip', 'Shop', 'Rank', 'Card', 'Match', 'Task', 'Guide', 'Activity', 'Notice', 'Mail', 'Equip', 'Hero', 'Item', 'Option', 'Setting', 'Chart', 'Join', 'Chat', 'Common', 'Android', 'Prompt', 'Dialog', 'Quit', 'Exit')
+        ui_prefixes = ('Title', 'Btn', 'Menu', 'Tab', 'Lobby', 'Confirm', 'Tip', 'Shop', 'Rank', 'Card', 'Match', 'Task', 'Guide', 'Activity', 'Notice', 'Mail', 'Equip', 'Hero', 'Item', 'Option', 'Setting', 'Chart', 'Join', 'Chat', 'Common', 'Android', 'Prompt', 'Dialog', 'Quit', 'Exit', 'Project8', 'Lord', 'Exclusive', 'Res')
         def is_ui(k):
             return any(k.lower().startswith(p.lower()) for p in ui_prefixes) or len(k) == 16
+
+        FACTION_KEYS = {
+            'Project8CampCareerName117': 'Tiga Kerajaan' if not is_en else 'Three Kingdoms',
+            'DADD6C898742DFB4': 'Sungai Besar' if not is_en else 'Riverlands',
+            'C144A50536240665': 'Zhulu',
+            '7EB9DBB5DE971CCF': 'Heluo',
+            '643D333F32A79A51': 'Laut Senja' if not is_en else 'Sunset Sea',
+            '1B75A8918B21DD60': 'Tiga Kerajaan' if not is_en else 'Three Kingdoms',
+            '0806C94C7A600204': 'Laut Senja' if not is_en else 'Sunset Sea',
+        }
 
         for tag, nested, enc in fields(raw_dd5b):
             parts = list(fields(nested))
             k = next(p[1].decode('utf-8', 'ignore') for p in parts if p[0] == 10)
             s = next(p[1].decode('utf-8', 'ignore') for p in parts if p[0] == 18)
-            t = catalog.lookup(fhash_dd5b, k, s)
+            t = FACTION_KEYS.get(k) or catalog.lookup(fhash_dd5b, k, s)
+            if t and t != s:
+                t = compact_text(t, is_en=is_en)
             new_enc = enc
             diff = 0
             if t and t != s:
@@ -309,7 +447,8 @@ def patch_package_1(shard_path, is_en=False):
 
         budget_dd5b = len(raw_dd5b) - sum(len(r['active']) for r in recs_dd5b)
         gt_zero_dd5b = [r for r in recs_dd5b if r['diff'] > 0 and r['t'] and r['t'] != r['s']]
-        gt_zero_dd5b.sort(key=lambda r: (len(r['s']) > 15, not r['is_ui'], r['diff']))
+        gt_zero_dd5b.sort(key=lambda r: (r['k'] not in FACTION_KEYS, len(r['s']) > 15, not r['is_ui'], r['diff']))
+
         for r in gt_zero_dd5b:
             if budget_dd5b >= r['diff']:
                 r['active'] = r['new']
@@ -359,7 +498,37 @@ def patch_package_1(shard_path, is_en=False):
         f.write(slot_bytes_616b)
         print(f"  [✓] 0x{fhash_616b:016X} (Lobby & Drawer): Translated 15/15")
 
-        # 3. Master Localization Tables
+        # 3. Card Keywords & Triggers (0x5698)
+        fhash_5698 = 0x56985DCB17BCDBF9
+        if fhash_5698 in sm:
+            raw_5698 = pkg.extract(fhash_5698, sm)
+            slot_5698 = sm[fhash_5698][0]
+            kw_map = dict(KEYWORD_SOL_EN if is_en else KEYWORD_SOL_ID)
+            recs_5698 = []
+            for tag, nested, enc in fields(raw_5698):
+                parts = list(fields(nested))
+                k = next(p[1].decode('utf-8', 'ignore') for p in parts if p[0] == 10)
+                src = next(p[1].decode('utf-8', 'ignore') for p in parts if p[0] == 18)
+                tgt = kw_map.get(k, src)
+                recs_5698.append({'k': k, 's': src, 't': tgt, 'orig': enc})
+            
+            cur_diff = sum(len(make_rec(r['k'], r['t'])) - len(r['orig']) for r in recs_5698)
+            pad = -cur_diff
+            if pad > 0:
+                for r in recs_5698:
+                    if r['k'] == '#4A66D52802E8DC92#':
+                        r['t'] = r['t'] + ' ' * pad
+                        break
+            tbl_5698 = b''.join(make_rec(r['k'], r['t']) for r in recs_5698)
+            assert len(tbl_5698) == len(raw_5698), f"Length mismatch: {len(tbl_5698)} vs {len(raw_5698)}"
+            comp_5698 = qts.lz4.block.compress(tbl_5698, mode='high_compression', compression=12, store_size=False)
+            assert len(comp_5698) <= slot_5698.slot_size - 48, f"Overflow: {len(comp_5698)} > {slot_5698.slot_size - 48}"
+            sb_5698 = upi_mod._slot_bytes(slot_5698, comp_5698, len(tbl_5698), file_hash=fhash_5698, slot_offset=slot_5698.slot_offset, slot_size=slot_5698.slot_size)
+            f.seek(slot_5698.slot_offset)
+            f.write(sb_5698)
+            print(f"  [✓] 0x{fhash_5698:016X} (Card Keywords & Triggers): Translated 18/18, comp={len(comp_5698)}")
+
+        # 4. Master Localization Tables
         KNOWN_TABLES_1 = {
             0x79E3F2A531266997: 'Game Modes & Events',
             0x42E8DB43608C2FF1: 'Hero Cards & Synergies',
@@ -374,6 +543,12 @@ def patch_package_1(shard_path, is_en=False):
             0xC9BC3381603BDDB3: 'Hero Cards Variant 6',
             0x04F21C6735D0D555: 'Hero Cards Variant 7',
             0x9BE81CD52C660467: 'Hero Cards Variant 8',
+            0x666DC40230B31A30: 'Hero Cards Variant 9',
+            0xF628F40CE23D983E: 'Hero Cards Variant 10',
+            0xC059EA43719099F1: 'Hero Cards Variant 11',
+            0x27BBF8CDFFFA177F: 'Hero Cards Variant 12',
+            0xC4E32B49AE8B7FFB: 'Hero Cards Variant 13',
+            0x5EB61A0269CD8550: 'Hero Cards Variant 14',
             0x55EC8FF338904581: 'Hero Synergies Variant 2',
             0x7F7F60ACED822B5E: 'Hero Skills 1',
             0x58B4B182D74B34B0: 'Hero Skills 2',
@@ -396,7 +571,7 @@ def patch_package_1(shard_path, is_en=False):
 
         loc_count = 0
         for fhash in sorted(sm):
-            if fhash in (0xDD5B5EDFBB69FEED, 0x616B352C296F1FFE):
+            if fhash in (0xDD5B5EDFBB69FEED, 0x616B352C296F1FFE, 0x56985DCB17BCDBF9):
                 continue
             try:
                 raw_check = pkg.extract(fhash, sm)
@@ -409,13 +584,13 @@ def patch_package_1(shard_path, is_en=False):
                         has_str += 1
                 if cnt > 0 and has_str == cnt:
                     lbl = KNOWN_TABLES_1.get(fhash, f"Table 0x{fhash:016X}")
-                    ok = patch_table_generic(f, pkg, sm, fhash, lbl, catalog)
+                    ok = patch_table_generic(f, pkg, sm, fhash, lbl, catalog, is_en=is_en)
                     if ok:
                         loc_count += 1
             except Exception:
                 pass
 
-    print(f"  [✓] Paket 1 selesai diterjemahkan ({loc_count + 2} tabel berhasil)!")
+    print(f"  [✓] Paket 1 selesai diterjemahkan ({loc_count + 3} tabel berhasil)!")
 
 def patch_package_4(shard_path, is_en=False):
     print(f"[*] Menambal Package 4 ({'English' if is_en else 'Indonesian'})...")
@@ -453,13 +628,14 @@ def patch_package_4(shard_path, is_en=False):
                         has_str += 1
                 if cnt > 0 and has_str == cnt:
                     lbl = pkg4_labels.get(fhash, f"Table 0x{fhash:016X}")
-                    ok = patch_table_generic(f, pkg, sm, fhash, lbl, catalog)
+                    ok = patch_table_generic(f, pkg, sm, fhash, lbl, catalog, is_en=is_en)
                     if ok:
                         loc_count += 1
             except Exception:
                 pass
 
     print(f"  [✓] Paket 4 selesai diterjemahkan ({loc_count} tabel berhasil)!")
+
 
 def strip_safe_comments(text, max_bytes):
     lines = text.split('\n')
@@ -834,14 +1010,14 @@ def main():
         "manifestVersion": "1.0",
         "appVersion": "1.8.2",
         "buildCode": 10,
-        "updatedAt": "2026-10-13T23:55:00Z",
+        "updatedAt": "2026-10-14T00:10:00Z",
         "packages": {
             "id": {
                 "language": "id",
                 "displayName": "Bahasa Indonesia",
                 "fileName": "golden_shards.zip",
-                "primaryUrl": "https://github.com/nanzareth/ZenithPatcher/releases/download/v1.8.2/golden_shards.zip",
-                "mirrorUrl": "https://cdn.jsdelivr.net/gh/nanzareth/ZenithPatcher@main/shards/golden_shards.zip",
+                "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards.zip",
+                "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards.zip",
                 "sha256": id_hash,
                 "sizeBytes": id_size,
                 "shardsIncluded": ["1", "4", "10"],
@@ -851,8 +1027,8 @@ def main():
                 "language": "en",
                 "displayName": "Global English",
                 "fileName": "golden_shards_en.zip",
-                "primaryUrl": "https://github.com/nanzareth/ZenithPatcher/releases/download/v1.8.2/golden_shards_en.zip",
-                "mirrorUrl": "https://cdn.jsdelivr.net/gh/nanzareth/ZenithPatcher@main/shards/golden_shards_en.zip",
+                "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards_en.zip",
+                "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards_en.zip",
                 "sha256": en_hash,
                 "sizeBytes": en_size,
                 "shardsIncluded": ["1", "4", "10"],
