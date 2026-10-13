@@ -1,0 +1,38 @@
+{
+  "manifestVersion": "1.0",
+  "appVersion": "1.8.2",
+  "buildCode": 10,
+  "updatedAt": "2026-10-13T20:00:00Z",
+  "packages": {
+    "id": {
+      "language": "id",
+      "displayName": "Bahasa Indonesia",
+      "fileName": "golden_shards.zip",
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards.zip",
+      "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards.zip",
+      "sha256": "542CCBAE65025E0D316B4102D963808254F143097A7DC0AE351015413D77CEAC",
+      "sizeBytes": 49418912,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
+      "bitExactVerified": true
+    },
+    "en": {
+      "language": "en",
+      "displayName": "Global English",
+      "fileName": "golden_shards_en.zip",
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards_en.zip",
+      "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards_en.zip",
+      "sha256": "ACADAE0C10725F0820B1727543FDEF47B13BF9FBCC3F98A0753ADAAA56BC6026",
+      "sizeBytes": 49014090,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
+      "bitExactVerified": true
+    }
+  }
+}
