@@ -2,7 +2,7 @@
   "manifestVersion": "1.0",
   "appVersion": "1.8.2",
   "buildCode": 10,
-  "updatedAt": "2026-10-13T22:00:00Z",
+  "updatedAt": "2026-10-13T23:55:00Z",
   "packages": {
     "id": {
       "language": "id",
@@ -10,8 +10,8 @@
       "fileName": "golden_shards.zip",
       "primaryUrl": "https://github.com/nanzareth/ZenithPatcher/releases/download/v1.8.2/golden_shards.zip",
       "mirrorUrl": "https://cdn.jsdelivr.net/gh/nanzareth/ZenithPatcher@main/shards/golden_shards.zip",
-      "sha256": "C82B4EDD756CA8FDFD6543528DB8C8975B9000D224BD55407AC102C9729E01E9",
-      "sizeBytes": 64938983,
+      "sha256": "16ED4C417845A84FED3B6458542C1FF8EC252EAFF06884511FDCC09E1F97D569",
+      "sizeBytes": 64186666,
       "shardsIncluded": [
         "1",
         "4",
@@ -25,8 +25,8 @@
       "fileName": "golden_shards_en.zip",
       "primaryUrl": "https://github.com/nanzareth/ZenithPatcher/releases/download/v1.8.2/golden_shards_en.zip",
       "mirrorUrl": "https://cdn.jsdelivr.net/gh/nanzareth/ZenithPatcher@main/shards/golden_shards_en.zip",
-      "sha256": "559667380C39B6B2963B848E0E241217735C9CA24515CA7F3C339C074EFB9C2A",
-      "sizeBytes": 64943962,
+      "sha256": "B8CD6853771DDE7A828C1E7208235141CC23F5CB7F64D5353F5B97A83F082B9C",
+      "sizeBytes": 64209375,
       "shardsIncluded": [
         "1",
         "4",
