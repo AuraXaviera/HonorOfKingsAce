@@ -85,6 +85,89 @@ COMPACT_TERMS_ID = {
     '棋手升级时，{LordExp}+{3|2}。': 'Saat naik level, {LordExp}+{3|2}.',
     '棋手升级时，{LordExp}+{3|4}。': 'Saat naik level, {LordExp}+{3|4}.',
     '本回合战斗开始时，弈星随机<color=#ffffff><b>复制</b></color>1名敌方英雄。': 'Mulai ronde, Yixing salin 1 Hero lawan acak.',
+    # 1. Effect Cards (战术牌)
+    '高级人才': 'Bakat Ahli',
+    '简易协作': 'Sinergi Tim',
+    '临阵磨枪': 'Asah Senjata',
+    '战术牌': 'Taktik',
+    '战术': 'Taktik',
+    '高阶战术牌': 'Taktik Tingkat Tinggi',
+    '效果牌': 'Kartu Efek',
+    '效果': 'Efek',
+
+    # 2. Talent Cards (天赋牌)
+    '三分新援': 'Bantuan 3K',
+    '大河新援': 'Rekrut River',
+    '逐鹿新援': 'Rekrut Zhulu',
+    '日落海新援': 'Rekrut Senja',
+    '河洛新援': 'Rekrut Heluo',
+    '五福临门': '5 Berkah',
+    '小电池包': 'Baterai Mini',
+    '节能商店': 'Toko Hemat',
+    '随机成长': 'Tumbuh Acak',
+    '加速成长': 'Tumbuh Cepat',
+    '微弱优势': 'Untung Tipis',
+    '天赋牌': 'Bakat',
+    '天赋': 'Bakat',
+
+    # 3. Equipment Cards (装备牌)
+    '装备牌': 'Gear',
+    '装备': 'Gear',
+    '普通装备牌': 'Gear Biasa',
+    '高级装备牌': 'Gear Tinggi',
+    '普通装备': 'Gear Biasa',
+    '高级装备': 'Gear Tinggi',
+    '特殊装备': 'Gear Khusus',
+    '装备升级': 'Upgrade Gear',
+
+    # 4. Rules & Tabs
+    '进阶规则': 'Aturan Mahir',
+    '棋手牌': 'Taktisi',
+    '基础规则': 'Aturan Dasar',
+
+    # 5. Factions & Card Footer Badges
+    '-三分之地-': '-3 Kerajaan-',
+    '-大河流域-': '-Sungai Besar-',
+    '-日落海-': '-Sunset-',
+    '-逐鹿-': '-Zhulu-',
+    '-河洛-': '-Heluo-',
+    '-长城-': '-Tembok-',
+    '-长城守卫军-': '-Tembok-',
+    '-玄雍-': '-Xuan-',
+    '-云梦泽-': '-Yunmeng-',
+    '-稷下-': '-Jixia-',
+    '-海都-': '-Haidu-',
+    '-无阵营-': '-Netral-',
+    '三分之地': '3 Kerajaan',
+    '大河流域': 'Sungai Besar',
+    '日落海': 'Laut Senja',
+    '逐鹿': 'Zhulu',
+    '河洛': 'Heluo',
+    '长城': 'Tembok',
+    '长城守卫军': 'Tembok',
+    '玄雍': 'Xuan',
+    '云梦泽': 'Yunmeng',
+    '稷下': 'Jixia',
+    '海都': 'Haidu',
+    '无阵营': 'Netral',
+
+    # 6. Specific Card Passive & Body Strings
+    '<a href=3130012>╆<b>转瞬</b></a>\n全体【逐鹿】英雄本回合获得50（+25×战术牌打出次数，当前：{XYTokenAValue:75}）点<b>护盾</b>。':
+        '<a href=3130012>╆<b>Fleeting</b></a>\nSemua Hero [Zhulu] ronde ini dapat 50 (+25 x Taktik dipakai, saat ini:{XYTokenAValue:75}) <b>Shield</b>.',
+    '<a href=3130012>╆<b>转瞬</b></a>\n全体【逐鹿】英雄本回合获得100（+50×战术牌打出次数，当前：{XYTokenAValue_up:150}）点<b>护盾</b>。':
+        '<a href=3130012>╆<b>Fleeting</b></a>\nSemua Hero [Zhulu] ronde ini dapat 100 (+50 x Taktik dipakai, saat ini:{XYTokenAValue_up:150}) <b>Shield</b>.',
+    '<a href=3130012>╆<b>转瞬</b></a>\n全体【逐鹿】英雄本回合获得200（+100×战术牌打出次数，当前：{XYTokenAValue_up:300}）点<b>护盾</b>。':
+        '<a href=3130012>╆<b>Fleeting</b></a>\nSemua Hero [Zhulu] ronde ini dapat 200 (+100 x Taktik dipakai, saat ini:{XYTokenAValue_up:300}) <b>Shield</b>.',
+    '获得{0|2}{Energy}，以及随机1张2-3阶<color=#FFE897>【三分】英雄牌</color>。':
+        'Dapat {0|2}{Energy} & acak 1 Hero Lv 2-3 <color=#FFE897>[3 Kerajaan]</color>.',
+    '获得{0|2}{Energy}，以及随机1张2-3阶<color=#FFE897>【大河流域】英雄牌</color>。':
+        'Dapat {0|2}{Energy} & acak 1 Hero Lv 2-3 <color=#FFE897>[Sungai Besar]</color>.',
+    '获得{0|2}{Energy}，以及随机1张2-3阶<color=#FFE897>【日落海】英雄牌</color>。':
+        'Dapat {0|2}{Energy} & acak 1 Hero Lv 2-3 <color=#FFE897>[Laut Senja]</color>.',
+    '获得{0|2}{Energy}，以及随机1张2-3阶<color=#FFE897>【河洛】英雄牌</color>。':
+        'Dapat {0|2}{Energy} & acak 1 Hero Lv 2-3 <color=#FFE897>[Heluo]</color>.',
+    '获得{0|2}{Energy}，以及随机1张2-3阶<color=#FFE897>【逐鹿】英雄牌</color>。':
+        'Dapat {0|2}{Energy} & acak 1 Hero Lv 2-3 <color=#FFE897>[Zhulu]</color>.',
 }
 
 # Compact MOBA Terms (English)
@@ -147,10 +230,15 @@ COMPACT_RULES_ID = [
     ('Menghasilkan', 'Beri'), ('menghasilkan', 'beri'),
     ('Menggunakan', 'Pakai'), ('menggunakan', 'pakai'),
     ('Digunakan', 'Dipakai'), ('digunakan', 'dipakai'),
-    ('Pemain Catur', 'Player'), ('pemain catur', 'player'),
+    ('Pemain Catur', 'Taktisi'), ('pemain catur', 'taktisi'),
+    ('Player', 'Taktisi'), ('player', 'taktisi'),
     ('Kartu Hero', 'Hero'), ('kartu hero', 'hero'),
     ('Hero Card', 'Hero'), ('hero card', 'hero'),
+    ('Kartu Bakat', 'Bakat'), ('kartu bakat', 'Bakat'),
+    ('Kartu Taktik', 'Taktik'), ('kartu taktik', 'Taktik'),
+    ('Kartu Efek', 'Efek'), ('kartu efek', 'Efek'),
     ('Kartu Peralatan', 'Gear'), ('kartu peralatan', 'gear'),
+    ('Kartu Gear', 'Gear'), ('kartu gear', 'Gear'),
     ('Peralatan', 'Gear'), ('peralatan', 'gear'),
     ('Kesehatan Maksimal', 'Max HP'), ('kesehatan maksimal', 'max HP'),
     ('Kesehatan', 'HP'), ('kesehatan', 'HP'),
@@ -168,9 +256,14 @@ COMPACT_RULES_ID = [
     ('Kecepatan Serangan', 'AS'), ('kecepatan serangan', 'AS'),
     ('Kecepatan', 'SPD'), ('kecepatan', 'SPD'),
     ('Pengalaman', 'EXP'), ('pengalaman', 'EXP'),
+    ('Tingkat Acak', 'Lv acak'), ('tingkat acak', 'lv acak'),
+    ('Tingkat terendah', 'Lv terendah'), ('tingkat terendah', 'lv terendah'),
     ('Tingkat', 'Lv'), ('tingkat', 'Lv'),
+    ('Level terendah', 'Lv terendah'), ('level terendah', 'lv terendah'),
     ('Level', 'Lv'), ('level', 'Lv'),
+    ('putaran ini', 'ronde ini'), ('Putaran ini', 'ronde ini'),
     ('putaran', 'ronde'), ('Putaran', 'Ronde'),
+    ('Babak ini', 'ronde ini'), ('babak ini', 'ronde ini'),
     ('Pertempuran', 'Battle'), ('pertempuran', 'battle'),
     ('Kemampuan', 'Skill'), ('kemampuan', 'skill'),
     ('Kekuatan Kemampuan', 'AP'), ('kekuatan kemampuan', 'AP'),
@@ -179,6 +272,41 @@ COMPACT_RULES_ID = [
     ('secara acak', 'acak'), ('Secara acak', 'Acak'),
     ('memiliki peluang', 'berpeluang'), ('Memiliki peluang', 'Berpeluang'),
     ('Koin Kuno', 'Koin'), ('koin kuno', 'koin'),
+    ('Three Kingdoms', '3 Kerajaan'),
+    ('Riverlands', 'Sungai Besar'),
+    ('Sunset', 'Laut Senja'),
+    ('Zhulu Plateau', 'Zhulu'),
+    ('menerima ', 'dapat '), ('Menerima ', 'Dapat '),
+    ('sebesar ', ''), ('Sebesar ', ''),
+    (' buah ', ' '),
+    ('salah satu ', '1 '), ('Salah satu ', '1 '),
+    ('menjadi ', 'jadi '), ('Menjadi ', 'Jadi '),
+    ('setiap kali ', 'tiap '), ('Setiap kali ', 'Tiap '),
+    ('setiap ', 'tiap '), ('Setiap ', 'Tiap '),
+    ('pada saat ', 'saat '), ('Pada saat ', 'Saat '),
+    ('di awal ', 'awal '), ('Di awal ', 'Awal '),
+    ('selama ', 'saat '), ('Selama ', 'Saat '),
+    ('Setelah ', 'Pasca '), ('setelah ', 'pasca '),
+    ('dengan ', 'dgn '), ('Dengan ', 'Dgn '),
+    ('berubah menjadi', 'jadi'), ('Berubah menjadi', 'Jadi'),
+    ('mengubah', 'ubah'), ('Mengubah', 'Ubah'),
+    ('mengumpulkan', 'kumpul'), ('Mengumpulkan', 'Kumpul'),
+    ('bertarung bersama', 'bersama'), ('Bertarung bersama', 'Bersama'),
+    ('kemenangan', 'menang'), ('Kemenangan', 'Menang'),
+    ('Hero Diincar Dipakai', 'Hero target'),
+    ('Hero yang ditargetkan', 'Hero target'),
+    ('Hero yang ditarget', 'Hero target'),
+    ('memilih 1', 'pilih 1'), ('Memilih 1', 'Pilih 1'),
+    ('dapat memilih', 'pilih'), ('Dapat memilih', 'Pilih'),
+    ('menghancurkan diri', 'meledak'),
+    ('tidak fatal', 'tak fatal'),
+    ('saat ini:', 'kini:'), ('Saat ini:', 'Kini:'), ('saat ini :', 'kini:'),
+    ('jumlah Kartu Taktik yang dimainkan', 'Taktik dipakai'),
+    ('berapa kali Kartu Taktik dimainkan', 'Taktik dipakai'),
+    ('frekuensi Kartu Taktik dimainkan', 'Taktik dipakai'),
+    ('per Kartu Taktik yang dimainkan', 'per Taktik dipakai'),
+    ('meningkatkan Level', 'tingkatkan Lv'), ('Meningkatkan Level', 'Tingkatkan Lv'),
+    ('Musim Saat Ini', 'musim ini'), ('Musim saat ini', 'musim ini'), ('musim saat ini', 'musim ini'),
     (' yang ', ' '), (' Yang ', ' '),
     (' akan ', ' '), (' Akan ', ' '),
     (' untuk ', ' '), (' Untuk ', ' '),
@@ -319,12 +447,21 @@ def patch_table_generic(f, pkg, sm, fhash, label, catalog, priority_keys=None, i
     
     def get_pri(r):
         s, t = r['s'], r['t'] or ''
-        return not any(kw in s or kw in t for kw in ('雪人', '嫁接', '铤而走险', 'Snowman', 'Graft', 'Salju', 'Taktis', 'Keberuntungan', 'Diamond', '钻石', '万象', 'ACE'))
+        if any(kw in s or kw in t for kw in (
+            '高级人才', '简易协作', '临阵磨枪', '三分新援', '大河新援', '逐鹿新援', '日落海新援', '河洛新援',
+            '五福临门', '小电池包', '节能商店', '随机成长', '加速成长', '微弱优势', '进阶规则', '基础规则',
+            '棋手牌', '战术牌', '天赋牌', '装备牌', '普通装备牌', '高级装备牌', '普通装备', '高级装备',
+            '特殊装备', '装备升级', '三分', '大河', '日落', '逐鹿', '河洛', '长城', '玄雍', '云梦泽', '稷下', '海都'
+        )):
+            return 0
+        if any(kw in s or kw in t for kw in ('雪人', '嫁接', '铤而走险', 'Snowman', 'Graft', 'Salju', 'Taktis', 'Keberuntungan', 'Diamond', '钻石', '万象', 'ACE')):
+            return 1
+        return 2
 
     if priority_keys:
-        gt_zero.sort(key=lambda r: (r['k'] not in priority_keys, get_pri(r), len(r['s']) > 20, r['diff']))
+        gt_zero.sort(key=lambda r: (r['k'] not in priority_keys, get_pri(r), len(r['s']) > 15, r['diff']))
     else:
-        gt_zero.sort(key=lambda r: (get_pri(r), len(r['s']) > 20, r['diff']))
+        gt_zero.sort(key=lambda r: (get_pri(r), len(r['s']) > 15, r['diff']))
 
     budget = len(raw) - sum(len(r['new'] if r['diff'] <= 0 else r['orig']) for r in recs)
     applied_pos = []
@@ -567,6 +704,7 @@ def patch_package_1(shard_path, is_en=False):
             0x9C4EC654D5454B46: 'Card Effects Master B',
             0xC13DF45E3492CA0C: 'Card Effects Master C',
             0xEABE356D0A0BB65F: 'Card Effects Master D',
+            0x374D23CB263125F9: 'Pedia Rules & Tabs',
         }
 
         loc_count = 0
@@ -823,6 +961,12 @@ if not _G.__zenith_hooked then
         ["秩序白银解锁新内容"]="{silverUnlock}",["排位"]="Ranked",["训练"]="{train}",
         ["自定义"]="{custom}",["娱乐"]="{casual}",["赛季奖励"]="{seasonRwd}",
         ["残局挑战"]="{endgameChall}",["抉择之弈"]="{choiceChess}",
+        ["高级人才"]="Bakat Ahli",["简易协作"]="Sinergi Tim",["临阵磨枪"]="Asah Senjata",
+        ["三分新援"]="Bantuan 3K",["大河新援"]="Rekrut River",["逐鹿新援"]="Rekrut Zhulu",["日落海新援"]="Rekrut Senja",["河洛新援"]="Rekrut Heluo",
+        ["五福临门"]="5 Berkah",["小电池包"]="Baterai Mini",["节能商店"]="Toko Hemat",["随机成长"]="Tumbuh Acak",["加速成长"]="Tumbuh Cepat",["微弱优势"]="Untung Tipis",
+        ["进阶规则"]="Aturan Mahir",["基础规则"]="Aturan Dasar",["棋手牌"]="Taktisi",["战术牌"]="Taktik",["天赋牌"]="Bakat",["装备牌"]="Gear",
+        ["三分之地"]="3 Kerajaan",["大河流域"]="Sungai Besar",["日落海"]="Laut Senja",["逐鹿"]="Zhulu",["河洛"]="Heluo",["长城"]="Tembok",["长城守卫军"]="Tembok",
+        ["-三分之地-"]="-3 Kerajaan-",["-大河流域-"]="-Sungai Besar-",["-日落海-"]="-Sunset-",["-逐鹿-"]="-Zhulu-",["-河洛-"]="-Heluo-",["-长城-"]="-Tembok-",["-长城守卫军-"]="-Tembok-",
         ["倔强青铜"]="Bronze",["秩序白银"]="Silver",["荣耀黄金"]="Gold",
         ["尊贵铂金"]="Platinum",["永恒钻石"]="Diamond",["至尊星耀"]="Mythic",["最强王者"]="Grandmaster"
     }}
