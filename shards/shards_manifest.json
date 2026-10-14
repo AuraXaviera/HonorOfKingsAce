@@ -10,8 +10,8 @@
       "fileName": "golden_shards.zip",
       "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards.zip",
       "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards.zip",
-      "sha256": "2406E216F7E8867685418971B44A1033593E7A78007002367B113A320E197CE8",
-      "sizeBytes": 64316239,
+      "sha256": "EB9F1E70D82F9FC3F8931D98C69B478A9E481E9255F366F6FAE125CF0A9BB17C",
+      "sizeBytes": 64318449,
       "shardsIncluded": [
         "1",
         "4",
@@ -25,8 +25,8 @@
       "fileName": "golden_shards_en.zip",
       "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.8.2/golden_shards_en.zip",
       "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards_en.zip",
-      "sha256": "5628FF9ECC2704B6C134E99D942A5B0929F7B1C70250AD6FBAB0D89CA6AB53B1",
-      "sizeBytes": 64221147,
+      "sha256": "CFE4F620FEC7D3C49807F805E29A780B7103445A60C0D5838DC92241826B4BDB",
+      "sizeBytes": 64222073,
       "shardsIncluded": [
         "1",
         "4",

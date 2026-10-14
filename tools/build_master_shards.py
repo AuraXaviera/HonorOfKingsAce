@@ -482,12 +482,35 @@ def patch_table_generic(f, pkg, sm, fhash, label, catalog, priority_keys=None, i
         
         pad_b = cur_budget
         if pad_b > 0:
+            absorbed = False
             for r in recs:
-                if (id(r) in applied_pos_ids or id(r) in applied_neg_ids) and r['t'] and r['t'] != r['s'] and len(r['t']) + pad_b < 250:
-                    r['active'] = make_rec(r['k'], r['t'] + ' ' * pad_b)
-                    pad_b = 0
-                    break
+                if (id(r) in applied_pos_ids or id(r) in applied_neg_ids) and r['t'] and r['t'] != r['s']:
+                    if len(r['t']) + pad_b < 250:
+                        r['active'] = make_rec(r['k'], r['t'] + ' ' * pad_b)
+                        pad_b = 0
+                        absorbed = True
+                        break
+            if not absorbed:
+                for r in recs:
+                    if (id(r) in applied_pos_ids or id(r) in applied_neg_ids) and r['t'] and r['t'] != r['s']:
+                        chunk = min(pad_b, 50)
+                        cur_text = r.get('_padded_t', r['t'])
+                        r['_padded_t'] = cur_text + ' ' * chunk
+                        r['active'] = make_rec(r['k'], r['_padded_t'])
+                        pad_b -= chunk
+                        if pad_b <= 0:
+                            break
+            if pad_b > 0:
+                for r in recs:
+                    chunk = min(pad_b, 50)
+                    cur_text = r.get('_padded_t', r['s'])
+                    r['_padded_t'] = cur_text + ' ' * chunk
+                    r['active'] = make_rec(r['k'], r['_padded_t'])
+                    pad_b -= chunk
+                    if pad_b <= 0:
+                        break
         tbl = b''.join(r['active'] for r in recs)
+        assert len(tbl) == len(raw), f"Exact byte match failed for 0x{fhash:016X}: {len(tbl)} vs {len(raw)}"
         chunks_comp = []
         offset = 0
         fits = True
@@ -983,25 +1006,31 @@ if not _G.__zenith_hooked then
     if _og then
         Localize.GetString = function(k, ...)
             if k and _sm[k] then return _sm[k] end
+            local n = select("#", ...)
+            if n == 0 then
+                local res = _og(k)
+                return res and _cln(res) or res
+            end
             local a = {{...}}
-            for i = 1, #a do if type(a[i]) == "string" and _sm[a[i]] then a[i] = _sm[a[i]] end end
-            local res = _og(k, table.unpack(a))
+            for i = 1, n do if type(a[i]) == "string" and _sm[a[i]] then a[i] = _sm[a[i]] end end
+            local _unp = table.unpack or unpack
+            local res = _og(k, _unp(a, 1, n))
             return res and _cln(res) or res
         end
     end
     local function _fix(it)
-        if it then
+        if it and type(it) == "table" then
             pcall(function()
-                if it.Name then it.Name = _cln(it.Name) end
-                if it.Title then it.Title = _cln(it.Title) end
-                if it.Desc then it.Desc = _cln(it.Desc) end
+                if it.Name and type(it.Name) == "string" then it.Name = _cln(it.Name) end
+                if it.Title and type(it.Title) == "string" then it.Title = _cln(it.Title) end
+                if it.Desc and type(it.Desc) == "string" then it.Desc = _cln(it.Desc) end
             end)
         end
         return it
     end
     if PBDataManager and PBDataManager.ResLobbyEntryJumpCfg then
         local _rgm = PBDataManager.ResLobbyEntryJumpCfg.GetMulti_ByGruopType
-        if _rgm then PBDataManager.ResLobbyEntryJumpCfg.GetMulti_ByGruopType = function(gt) local l = _rgm(gt); if l then for i = 1, #l do _fix(l[i]) end end; return l end end
+        if _rgm then PBDataManager.ResLobbyEntryJumpCfg.GetMulti_ByGruopType = function(gt) local l = _rgm(gt); if l and type(l) == "table" then for i = 1, #l do _fix(l[i]) end end; return l end end
         local _rge = PBDataManager.ResLobbyEntryJumpCfg.Get
         if _rge then PBDataManager.ResLobbyEntryJumpCfg.Get = function(id) return _fix(_rge(id)) end end
     end
@@ -1009,7 +1038,7 @@ if not _G.__zenith_hooked then
         local _old = LobbyData.GetLobbyEntryCfgListByType
         LobbyData.GetLobbyEntryCfgListByType = function(self, t)
             local res = _old(self, t)
-            if res then for _, v in pairs(res) do _fix(v) end end
+            if res and type(res) == "table" then for _, v in pairs(res) do _fix(v) end end
             return res
         end
     end
