@@ -1,8 +1,8 @@
 {
-  "manifestVersion": "2.0",
-  "appVersion": "1.9.0",
-  "buildCode": 11,
-  "updatedAt": "2026-10-14T16:41:37Z",
+  "manifestVersion": "2.1",
+  "appVersion": "1.9.1",
+  "buildCode": 12,
+  "updatedAt": "2026-10-15T03:39:51Z",
   "packages": {
     "id": {
       "language": "id",
@@ -41,10 +41,20 @@
       "displayName": "Bahasa Indonesia",
       "fileName": "golden_shards_id_v2.zip",
       "format": "official-v2",
-      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.9.0/golden_shards_id_v2.zip",
+      "compat": {
+        "1": {
+          "base": "C3B5BBB0A2C8488ABB716CD95DDC20DA4DA67C0B6641D195C9B5ECCCBBD815F3",
+          "installed": "2CF2C3B00A49672425E3F302D2EB2B84E9C140A6D5FD631AA6BF28E4D7466FED"
+        },
+        "4": {
+          "base": "9062D412F12668E5CE6C040743DF0D7C822B1D7CD7B135A9345F0F00D605016E",
+          "installed": "37A8DC7B7C89DAD9CBD5DBBEC64374A986076882C4D756138DC0AAC025D2D85B"
+        }
+      },
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.9.1/golden_shards_id_v2.zip",
       "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards_id_v2.zip",
-      "sha256": "B584D1BE5B89F0AB971E2A8542356842415669E6C12224FF280916861514C491",
-      "sizeBytes": 40670375,
+      "sha256": "B4FA3D4EFEF408F50931855B1F622EF62BC2B3AF9AE79F6A5218D127BEC00246",
+      "sizeBytes": 49810728,
       "shardsIncluded": [
         "1",
         "4"
@@ -57,10 +67,20 @@
       "displayName": "Global English",
       "fileName": "golden_shards_en_v2.zip",
       "format": "official-v2",
-      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.9.0/golden_shards_en_v2.zip",
+      "compat": {
+        "1": {
+          "base": "C3B5BBB0A2C8488ABB716CD95DDC20DA4DA67C0B6641D195C9B5ECCCBBD815F3",
+          "installed": "CF7D7C56ACA80D043DEE1B8CB0904CF4512E33F7A5C5E03EC9C7D35D148B1CBA"
+        },
+        "4": {
+          "base": "9062D412F12668E5CE6C040743DF0D7C822B1D7CD7B135A9345F0F00D605016E",
+          "installed": "D5F1ABE1286872C36371B32CE7D5E29F630986700CDEBF42186715B3D76E50C3"
+        }
+      },
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v1.9.1/golden_shards_en_v2.zip",
       "mirrorUrl": "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/shards/golden_shards_en_v2.zip",
-      "sha256": "1ECA745C916EDE5C58D31D81FAB92076C864EB2AEE4A6D10B19DFE2E1FC70B6D",
-      "sizeBytes": 40736553,
+      "sha256": "BE0FDFE92E030AF7485B053E7E9B1B58C1FB1C22DE98632888F6FCA00D6811C6",
+      "sizeBytes": 49876944,
       "shardsIncluded": [
         "1",
         "4"
