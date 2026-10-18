@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "version": "2026-10-18",
+  "date": "2026-10-18",
+  "title": {
+    "id": "Terjemahan Indonesia diperbarui",
+    "en": "Indonesian translation updated"
+  },
+  "notes": {
+    "id": [
+      "Nama faksi dan kata Faction sekarang pakai bahasa Inggris (Three Kingdoms, Riverlands, Sunset Sea, dan lainnya).",
+      "Kalimat kartu dan talent lebih natural, tidak lagi terpotong atau kaku.",
+      "Istilah game diperbaiki: Terbuka, Support, Awaken, Crit Rate, Tier, Rift.",
+      "Tombol dan label seperti Mulai, Kelola, dan Level Up lebih jelas."
+    ],
+    "en": [
+      "Faction names and the word Faction are now in English.",
+      "Card and talent text reads more naturally.",
+      "Game terms fixed: Unlocked, Support, Awaken, Crit Rate, Tier, Rift."
+    ]
+  }
+}
