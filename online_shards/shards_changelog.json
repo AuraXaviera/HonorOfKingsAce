@@ -1,22 +1,21 @@
 {
   "schema": 1,
-  "version": "2026-10-18",
-  "date": "2026-10-18",
+  "version": "2026-10-22",
+  "date": "2026-10-22",
   "title": {
-    "id": "Terjemahan Indonesia diperbarui",
-    "en": "Indonesian translation updated"
+    "id": "Terjemahan disesuaikan dengan update game 1.7.0.1",
+    "en": "Translation updated for game update 1.7.0.1"
   },
   "notes": {
     "id": [
-      "Nama faksi dan kata Faction sekarang pakai bahasa Inggris (Three Kingdoms, Riverlands, Sunset Sea, dan lainnya).",
-      "Kalimat kartu dan talent lebih natural, tidak lagi terpotong atau kaku.",
-      "Istilah game diperbaiki: Terbuka, Support, Awaken, Crit Rate, Tier, Rift.",
-      "Tombol dan label seperti Mulai, Kelola, dan Level Up lebih jelas."
+      "Cocok dengan data game terbaru (1.7.0.1). Setelah game di-update, Suntik Data berjalan lagi.",
+      "Teks kartu dan talent baru, deskripsi skill hero, dan teks fitur baru (pengaturan room, rekomendasi lineup) sudah diterjemahkan.",
+      "Nama faksi memakai bahasa Inggris, kalimat kartu lebih natural, dan istilah game lebih konsisten."
     ],
     "en": [
-      "Faction names and the word Faction are now in English.",
-      "Card and talent text reads more naturally.",
-      "Game terms fixed: Unlocked, Support, Awaken, Crit Rate, Tier, Rift."
+      "Matches the latest game data (1.7.0.1). After the game updates, Inject Data works again.",
+      "New card and talent text, hero skill descriptions, and new feature text (room settings, lineup recommendations) are translated.",
+      "Faction names stay in English, and card text and game terms are more consistent."
     ]
   }
 }
