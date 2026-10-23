@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "version": "2026-10-22",
-  "date": "2026-10-22",
+  "version": "2026-10-23",
+  "date": "2026-10-23",
   "title": {
-    "id": "Terjemahan disesuaikan dengan update game 1.7.0.1",
-    "en": "Translation updated for game update 1.7.0.1"
+    "id": "Terjemahan disesuaikan dengan update game 1.7.0.2",
+    "en": "Translation updated for game update 1.7.0.2"
   },
   "notes": {
     "id": [
-      "Cocok dengan data game terbaru (1.7.0.1). Setelah game di-update, Suntik Data berjalan lagi.",
-      "Teks kartu dan talent baru, deskripsi skill hero, dan teks fitur baru (pengaturan room, rekomendasi lineup) sudah diterjemahkan.",
-      "Nama faksi memakai bahasa Inggris, kalimat kartu lebih natural, dan istilah game lebih konsisten."
+      "Cocok dengan data game terbaru (1.7.0.2). Setelah game di-update, Suntik Data berjalan langsung.",
+      "Teks rekomendasi lineup baru dan skin baru Yang Yuhuan 'Chromatic Scales' sudah diterjemahkan lengkap.",
+      "Konsistensi terminologi resmi MOBA/HoK tetap terjaga untuk pengalaman bermain terbaik."
     ],
     "en": [
-      "Matches the latest game data (1.7.0.1). After the game updates, Inject Data works again.",
-      "New card and talent text, hero skill descriptions, and new feature text (room settings, lineup recommendations) are translated.",
-      "Faction names stay in English, and card text and game terms are more consistent."
+      "Matches the latest game data (1.7.0.2). After the game updates, Inject Data works smoothly.",
+      "New lineup recommendation text and Yang Yuhuan's new skin 'Chromatic Scales' are fully translated.",
+      "Official MOBA/HoK terminology maintained for the best gameplay experience."
     ]
   }
 }
