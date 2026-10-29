@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "version": "2026-10-23",
-  "date": "2026-10-23",
+  "version": "2026-10-29",
+  "date": "2026-10-29",
   "title": {
-    "id": "Terjemahan disesuaikan dengan update game 1.7.0.2",
-    "en": "Translation updated for game update 1.7.0.2"
+    "id": "Terjemahan disesuaikan dengan update game 1.8.0.1",
+    "en": "Translation updated for game update 1.8.0.1"
   },
   "notes": {
     "id": [
-      "Cocok dengan data game terbaru (1.7.0.2). Setelah game di-update, Suntik Data berjalan langsung.",
-      "Teks rekomendasi lineup baru dan skin baru Yang Yuhuan 'Chromatic Scales' sudah diterjemahkan lengkap.",
-      "Konsistensi terminologi resmi MOBA/HoK tetap terjaga untuk pengalaman bermain terbaik."
+      "Cocok dengan data game terbaru (1.8.0.1). Setelah game di-update sampai lobi, cukup tekan Suntik Data.",
+      "Efek kata kunci [Debut] baru untuk Lady Sun sudah diterjemahkan.",
+      "Istilah dan gaya terjemahan tetap konsisten dengan versi sebelumnya."
     ],
     "en": [
-      "Matches the latest game data (1.7.0.2). After the game updates, Inject Data works smoothly.",
-      "New lineup recommendation text and Yang Yuhuan's new skin 'Chromatic Scales' are fully translated.",
-      "Official MOBA/HoK terminology maintained for the best gameplay experience."
+      "Matches the latest game data (1.8.0.1). After updating the game to the lobby, just press Inject Data.",
+      "Lady Sun's new [Debut] keyword effect is translated.",
+      "Terms and translation style stay consistent with previous versions."
     ]
   }
 }
