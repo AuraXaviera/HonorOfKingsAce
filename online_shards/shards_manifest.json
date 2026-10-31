@@ -1,8 +1,8 @@
 {
-  "manifestVersion": "2.2",
-  "appVersion": "1.9.11",
-  "buildCode": 22,
-  "updatedAt": "2026-10-29T08:09:15Z",
+  "manifestVersion": "3.0",
+  "appVersion": "2.0",
+  "buildCode": 23,
+  "updatedAt": "2026-10-31T04:31:47Z",
   "gameApk": {
     "testedVersionCodes": [
       774472
@@ -144,5 +144,130 @@
       "engine": "build_device_patch (mesin resmi PC patcher); tabel ber-checksum tidak ditulis ulang",
       "bitExactVerified": false
     }
+  },
+  "packagesV3": {
+    "id": {
+      "language": "id",
+      "displayName": "Bahasa Indonesia",
+      "fileName": "golden_shards_id_v3.zip",
+      "format": "official-v2",
+      "compat": {
+        "1": {
+          "base": "AC9FE305AEF29FA667A5E40B86DDA7DBAE5024797875D91E27E123A32A4C5343",
+          "installed": "D7A8885508011E9A9023774B72CE29D851186E0D2F4988290AC9BA9FFC353278",
+          "packageHash": "6973223835957040453",
+          "alsoCompatible": [
+            "D8C7C942DAB682F3775A64B72F886466535D55BD516508F9103284E8F746A7DA"
+          ]
+        },
+        "4": {
+          "base": "08787C2B6C1F551966A64CB3F3EEF4F68FB8B40F0A357BD36E47A922316065D2",
+          "installed": "6CFE4F63D8153D258D962E5E3C79554EB83E40E061356C3AF4247F65C0464810",
+          "packageHash": "11040464179458596520",
+          "alsoCompatible": [
+            "BE43859CCE16EE892B7AD3A91D969ECD804DA894CD5697A69BA3918223110B70"
+          ]
+        },
+        "10": {
+          "base": "AB001CC6CF74088510D7524220F7D9718F73F042352CF02ACB9BF3B8BE4397C7",
+          "installed": "AB001CC6CF74088510D7524220F7D9718F73F042352CF02ACB9BF3B8BE4397C7",
+          "packageHash": "8410135363256623491",
+          "alsoCompatible": [
+            "AB001CC6CF74088510D7524220F7D9718F73F042352CF02ACB9BF3B8BE4397C7"
+          ]
+        }
+      },
+      "dataBaseline": {
+        "build": "20261028201401",
+        "version": "1.8.0.1",
+        "sizes": {
+          "1": 38547,
+          "4": 200579
+        }
+      },
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_id_v3.zip",
+      "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_id_v3.zip",
+      "sha256": "B7B3DEEF8B9703036528D77F84903B47D0C2A9E5A23BBF5C7E009B9F945CABD3",
+      "sizeBytes": 123164620,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
+      "deltaPackages": [
+        "15",
+        "19",
+        "20",
+        "1050016095"
+      ],
+      "engine": "build_device_patch (mesin resmi PC patcher); tabel ber-checksum tidak ditulis ulang",
+      "bitExactVerified": false
+    },
+    "en": {
+      "language": "en",
+      "displayName": "Global English",
+      "fileName": "golden_shards_en_v3.zip",
+      "format": "official-v2",
+      "compat": {
+        "1": {
+          "base": "AC9FE305AEF29FA667A5E40B86DDA7DBAE5024797875D91E27E123A32A4C5343",
+          "installed": "D8C7C942DAB682F3775A64B72F886466535D55BD516508F9103284E8F746A7DA",
+          "packageHash": "6973223835957040453",
+          "alsoCompatible": [
+            "D7A8885508011E9A9023774B72CE29D851186E0D2F4988290AC9BA9FFC353278"
+          ]
+        },
+        "4": {
+          "base": "08787C2B6C1F551966A64CB3F3EEF4F68FB8B40F0A357BD36E47A922316065D2",
+          "installed": "BE43859CCE16EE892B7AD3A91D969ECD804DA894CD5697A69BA3918223110B70",
+          "packageHash": "11040464179458596520",
+          "alsoCompatible": [
+            "6CFE4F63D8153D258D962E5E3C79554EB83E40E061356C3AF4247F65C0464810"
+          ]
+        },
+        "10": {
+          "base": "AB001CC6CF74088510D7524220F7D9718F73F042352CF02ACB9BF3B8BE4397C7",
+          "installed": "AB001CC6CF74088510D7524220F7D9718F73F042352CF02ACB9BF3B8BE4397C7",
+          "packageHash": "8410135363256623491",
+          "alsoCompatible": [
+            "AB001CC6CF74088510D7524220F7D9718F73F042352CF02ACB9BF3B8BE4397C7"
+          ]
+        }
+      },
+      "dataBaseline": {
+        "build": "20261028201401",
+        "version": "1.8.0.1",
+        "sizes": {
+          "1": 38547,
+          "4": 200579
+        }
+      },
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_en_v3.zip",
+      "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_en_v3.zip",
+      "sha256": "1BCD92E693A57AAA2FFA4055170E0AA60B0791AD081D0755A00AF5628EE5EFD1",
+      "sizeBytes": 123155764,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
+      "deltaPackages": [
+        "15",
+        "19",
+        "20",
+        "1050016095"
+      ],
+      "engine": "build_device_patch (mesin resmi PC patcher); tabel ber-checksum tidak ditulis ulang",
+      "bitExactVerified": false
+    }
+  },
+  "launcher": {
+    "versionCode": 23,
+    "versionName": "2.0",
+    "message": {
+      "id": "Zenith Launcher 2.0 tersedia: data terjemahan terbaru, badge faksi & tombol START GAME kini ikut terjemah. Unduh dari Discord Zenith.",
+      "en": "Zenith Launcher 2.0 is available: latest translation data, faction badges & START GAME button now translated. Download from the Zenith Discord."
+    },
+    "url": ""
   }
 }

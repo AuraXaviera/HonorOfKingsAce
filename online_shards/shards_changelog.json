@@ -1,21 +1,25 @@
 {
   "schema": 1,
-  "version": "2026-10-29",
-  "date": "2026-10-29",
+  "version": "2026-10-31",
+  "date": "2026-10-31",
   "title": {
-    "id": "Terjemahan disesuaikan dengan update game 1.8.0.1",
-    "en": "Translation updated for game update 1.8.0.1"
+    "id": "Zenith 2.0: badge faksi & tombol START GAME ikut diterjemahkan",
+    "en": "Zenith 2.0: faction badges & START GAME button translated"
   },
   "notes": {
     "id": [
-      "Cocok dengan data game terbaru (1.8.0.1). Setelah game di-update sampai lobi, cukup tekan Suntik Data.",
-      "Efek kata kunci [Debut] baru untuk Lady Sun sudah diterjemahkan.",
-      "Istilah dan gaya terjemahan tetap konsisten dengan versi sebelumnya."
+      "Badge faksi di kartu (Sunset, Central Plains, Riverlands, Three Kingdoms, Zhulu Plateau) dan tombol START GAME di lobi kini ikut diterjemahkan.",
+      "Fitur ini HANYA untuk Zenith Launcher 2.0. Launcher 1.9.x tetap memakai data terjemahan sebelumnya: perbarui ke 2.0 untuk mendapatkannya.",
+      "Unduhan data bahasa naik menjadi +-123 MB (berisi selisih gambar, bukan paket gambar 900 MB).",
+      "Pulihkan Data juga mengembalikan gambar asli tanpa unduh ulang.",
+      "Cocok dengan data game 1.8.0.1. Setelah game di-update sampai lobi, cukup tekan Suntik Data."
     ],
     "en": [
-      "Matches the latest game data (1.8.0.1). After updating the game to the lobby, just press Inject Data.",
-      "Lady Sun's new [Debut] keyword effect is translated.",
-      "Terms and translation style stay consistent with previous versions."
+      "Faction badges on cards (Sunset, Central Plains, Riverlands, Three Kingdoms, Zhulu Plateau) and the lobby START GAME button are now translated.",
+      "This feature is for Zenith Launcher 2.0 ONLY. Launcher 1.9.x keeps the previous translation data: update to 2.0 to get it.",
+      "The language data download grows to about 123 MB (it carries image differences, not the 900 MB image packages).",
+      "Restore Data also brings back the original images without re-downloading.",
+      "Matches game data 1.8.0.1. After updating the game to the lobby, just press Inject Data."
     ]
   }
 }
