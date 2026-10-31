@@ -6,12 +6,14 @@
 - Badge faksi di dasar kartu (Sunset, Central Plains, Riverlands, Three Kingdoms, Zhulu Plateau) dan tombol **START GAME** di lobi kini ikut diterjemahkan.
 - Gambar dikirim sebagai **selisih blok** (+-70 MB) atas paket gambar game 15/19/20/1050016095, bukan paket penuh (+-900 MB). Launcher memasangnya hanya bila berkas di HP persis versi dasar (SHA-256), lalu memverifikasi hasilnya.
 - **Pulihkan Data** mengembalikan gambar asli dari blok yang disimpan sebelum diubah (terverifikasi SHA-256), tanpa unduh ulang.
-- Teks: data terjemahan terbaru (paket 1, 4, 10 berhook) + kamus asisten AI Lingbao.
+- Teks: data terjemahan terbaru (paket 1, 4, 10 berhook); nama taktisi Lady Sun dan asisten Lingbao diseragamkan (sebelumnya ada "wangi", "fragrant", "Dolia", dll.).
+- Asisten AI Lingbao: 125 kalimat formasi baru diterjemahkan.
+- Launcher: tab Sinergi dan HUD in-game kini memakai **10 formasi resmi** dari menu Lineup game; pemberitahuan otomatis bila ada versi launcher baru; unduhan data bisa dilanjutkan bila terputus.
 
 | Berkas | Ukuran (B) | SHA-256 |
 |---|---|---|
-| golden_shards_id_v3.zip | 123164620 | `B7B3DEEF8B9703036528D77F84903B47D0C2A9E5A23BBF5C7E009B9F945CABD3` |
-| golden_shards_en_v3.zip | 123155764 | `1BCD92E693A57AAA2FFA4055170E0AA60B0791AD081D0755A00AF5628EE5EFD1` |
+| golden_shards_id_v3.zip | 123179416 | `5083AF17BB92F179588941E245EE1716A314DCB612830DCF407CC44F5D518490` |
+| golden_shards_en_v3.zip | 123169213 | `D6C92B488FE80EE2CFFB28CEC3532FF2C05BB0D22B444E6F079E5F8F7351FEAD` |
 
 Isi zip: `1/`, `4/`, `10/` (deskriptor + shard), `delta/<paket>/<berkas>.json|.bin` (selisih gambar), `zenith_ai.lua`.
 
