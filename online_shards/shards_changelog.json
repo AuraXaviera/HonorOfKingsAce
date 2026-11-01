@@ -1,25 +1,25 @@
 {
   "schema": 1,
-  "version": "2026-10-31",
-  "date": "2026-10-31",
+  "version": "2026-11-01",
+  "date": "2026-11-01",
   "title": {
-    "id": "Zenith 2.0: badge faksi & tombol START GAME ikut diterjemahkan",
-    "en": "Zenith 2.0: faction badges & START GAME button translated"
+    "id": "Zenith 2.0 (1 Nov): Toko, pencarian lineup & data game terbaru",
+    "en": "Zenith 2.0 (Nov 1): Shop, lineup search & latest game data"
   },
   "notes": {
     "id": [
-      "Badge faksi di kartu (Sunset, Central Plains, Riverlands, Three Kingdoms, Zhulu Plateau) dan tombol START GAME di lobi kini ikut diterjemahkan.",
-      "Fitur ini HANYA untuk Zenith Launcher 2.0. Launcher 1.9.x tetap memakai data terjemahan sebelumnya: perbarui ke 2.0 untuk mendapatkannya.",
-      "Unduhan data bahasa naik menjadi +-123 MB (berisi selisih gambar, bukan paket gambar 900 MB).",
-      "Pulihkan Data juga mengembalikan gambar asli tanpa unduh ulang.",
-      "Cocok dengan data game 1.8.0.1. Setelah game di-update sampai lobi, cukup tekan Suntik Data."
+      "Dibangun ulang di atas data game terbaru (Tencent mengubah sebagian data tanpa ganti versi): Pulihkan Data kembali bisa menyimpan cadangan asli, dan semua 4 paket gambar ikut terpasang.",
+      "Pencarian lineup kini menerima nama Indonesia/Inggris (hero, taktisi, kata kunci), termasuk gabungan kata dan ketikan yang belum selesai.",
+      "Label di Toko dan penulis lineup resmi (\"-Rekomendasi resmi\") ikut diterjemahkan; nama pemain tidak diubah.",
+      "Kamus Lingbao & lineup bertambah (pola baru, deskripsi lineup resmi, istilah nama lineup komunitas).",
+      "Tetap Mandarin: gambar nama taktisi di judul Lineup, label kesulitan, dan tugas mingguan Battle Pass (teks dari server)."
     ],
     "en": [
-      "Faction badges on cards (Sunset, Central Plains, Riverlands, Three Kingdoms, Zhulu Plateau) and the lobby START GAME button are now translated.",
-      "This feature is for Zenith Launcher 2.0 ONLY. Launcher 1.9.x keeps the previous translation data: update to 2.0 to get it.",
-      "The language data download grows to about 123 MB (it carries image differences, not the 900 MB image packages).",
-      "Restore Data also brings back the original images without re-downloading.",
-      "Matches game data 1.8.0.1. After updating the game to the lobby, just press Inject Data."
+      "Rebuilt on the latest game data (Tencent changed some data without a version bump): Restore Data can keep original backups again, and all 4 image packages are applied.",
+      "Lineup search now accepts English/Indonesian names (heroes, tacticians, keywords), including word combinations and unfinished typing.",
+      "Shop labels and the official lineup author (\"-Official recommendation\") are translated; player names are left untouched.",
+      "More Lingbao & lineup dictionary entries (new patterns, official lineup descriptions, community lineup name terms).",
+      "Still Chinese: the tactician name image in the Lineup header, the difficulty label, and Battle Pass weekly tasks (server text)."
     ]
   }
 }

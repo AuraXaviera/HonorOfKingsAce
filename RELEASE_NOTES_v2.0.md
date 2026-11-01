@@ -25,3 +25,16 @@ Isi zip: `1/`, `4/`, `10/` (deskriptor + shard), `delta/<paket>/<berkas>.json|.b
 `能量` / `棋手经验` / `棋手生命值` di teks kartu tertentu dirender kode game (C#), bukan data.
 
 Catatan: ini modifikasi data game pihak ketiga. Tidak ada jaminan bebas penalti akun; gunakan dengan risiko sendiri.
+
+## Pembaruan 1 Nov 2026 (aset v2.0 diganti)
+
+- Dibangun ulang di atas data game terbaru: Tencent mengubah paket 4, 10 dan 1050016095 tanpa mengganti versi build (`20261028201401`). Pulihkan Data kembali bisa menyimpan cadangan asli; keempat paket gambar terpasang.
+- Pencarian lineup menerima nama Indonesia/Inggris (hero, taktisi, kata kunci), gabungan kata, dan ketikan yang belum selesai.
+- Label Toko dan penulis lineup resmi ("-Rekomendasi resmi") diterjemahkan; nama pemain tidak diubah.
+- Kamus Lingbao & lineup bertambah.
+- Diuji di HP: lobi, START GAME, Kartu, Taktisi, Battle Pass, Lineup + pencarian.
+
+| Berkas | SHA-256 |
+|---|---|
+| golden_shards_id_v3.zip | `0944A45E88A3E724E3DE8B56A05B9CBE8D2206ABB0EE90E6A2E548815BE074AA` |
+| golden_shards_en_v3.zip | `81C4D54184A4233E41093365CACAD13583A69F3986945972E98BD15A86DB169A` |
