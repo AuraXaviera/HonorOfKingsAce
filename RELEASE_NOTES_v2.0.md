@@ -38,3 +38,15 @@ Catatan: ini modifikasi data game pihak ketiga. Tidak ada jaminan bebas penalti 
 |---|---|
 | golden_shards_id_v3.zip | `0944A45E88A3E724E3DE8B56A05B9CBE8D2206ABB0EE90E6A2E548815BE074AA` |
 | golden_shards_en_v3.zip | `81C4D54184A4233E41093365CACAD13583A69F3986945972E98BD15A86DB169A` |
+
+## Pembaruan 5 Nov 2026 (aset v2.0 diganti) — data game 1.9.0.2
+
+- Dibangun di atas data game **1.9.0.2** (build `20261105095006`); paket 1, 4, 10 dan gambar 15/19/20 berubah dari server.
+- Event baru **Blind Box Highlight Emote Heluo Hitam Putih** diterjemahkan (aturan, Pecahan & Token Heluo, emote per hero, varian tersembunyi).
+- 183 teks kartu/talent/skill baru + perbaikan kartu Diamond Frenzy (sama dengan Zenith Patcher PC v1.6.8) + 31 teks tambahan khusus data Android.
+- Diuji di HP: suntik (versi cocok, SHA, tekstur 4/4), lobi, Lineup, Kartu, Event.
+
+| Berkas | SHA-256 |
+|---|---|
+| golden_shards_id_v3.zip | `8C4AE7E5AF27F61F57800AD00BB1D269C401ACA3E5110F2FABB017022F2D8BD6` |
+| golden_shards_en_v3.zip | `74063CA7330BEB1ADCC1EE60234D5E4A10090BF30BD414B59E6BD2E3B275073B` |
