@@ -3,19 +3,21 @@
   "version": "2026-11-05",
   "date": "2026-11-05",
   "title": {
-    "id": "Zenith 2.0 (5 Nov): cocok dengan data game 1.9.0.2",
-    "en": "Zenith 2.0 (Nov 5): matches game data 1.9.0.2"
+    "id": "Zenith 2.0 (5 Nov): data 1.9.0.2 + istilah sumber daya kartu",
+    "en": "Zenith 2.0 (Nov 5): data 1.9.0.2 + card resource terms"
   },
   "notes": {
     "id": [
       "Data terjemahan disesuaikan dengan update game 1.9.0.2 (5 Nov). Setelah game di-update sampai lobi, cukup tekan Suntik Data.",
       "Event baru Blind Box Highlight Emote Heluo Hitam Putih ikut diterjemahkan: aturan, Pecahan & Token Heluo, deskripsi emote tiap hero, varian tersembunyi.",
+      "Teks kartu kini menampilkan nama sumber daya dalam bahasa Indonesia, bukan Mandarin: \"Triumph: +1 Energi\", \"Saat naik level, EXP Taktisi +2\" (juga HP Taktisi). Istilah EXP/HP Taktisi diseragamkan di seluruh teks.",
       "Teks kartu/talent & skill baru (Wu Zetian, Zhuang Zhou, Arthur, Bian Que, Marco Polo, dll.) dan kartu Diamond Frenzy diperbaiki.",
       "Masih Mandarin: badge faksi di pop-up kartu, gambar nama taktisi di judul Lineup, dan tugas mingguan Battle Pass."
     ],
     "en": [
       "Translation data updated for game update 1.9.0.2 (Nov 5). After updating the game to the lobby, just press Inject Data.",
       "The new Monochrome Heluo Highlight Emote Blind Box event is translated: rules, Heluo Shards & Tokens, per-hero emote descriptions, hidden variants.",
+      "Card text now shows resource names in English instead of Chinese: \"Triumph: +1 Energy\", \"On level up, Chessplayer EXP +2\" (also Chessplayer HP). The EXP/HP terms are unified across all texts.",
       "New card/talent & skill texts (Wu Zetian, Zhuang Zhou, Arthur, Bian Que, Marco Polo, etc.) and Diamond Frenzy cards fixed.",
       "Still Chinese: faction badges in the card pop-up, the tactician name image in the Lineup header, and Battle Pass weekly tasks."
     ]
