@@ -1,13 +1,14 @@
 {
   "schema": 1,
-  "version": "2026-11-05",
-  "date": "2026-11-05",
+  "version": "2026-11-06",
+  "date": "2026-11-06",
   "title": {
-    "id": "Zenith 2.0 (5 Nov): data 1.9.0.2 + istilah sumber daya kartu",
-    "en": "Zenith 2.0 (Nov 5): data 1.9.0.2 + card resource terms"
+    "id": "Zenith 2.0 (6 Nov): cocok dengan data game v1.9.3",
+    "en": "Zenith 2.0 (Nov 6): matches game data v1.9.3"
   },
   "notes": {
     "id": [
+      "Game update ke v1.9.3 (6 Nov): data terjemahan disesuaikan. Setelah game di-update sampai lobi, tekan Suntik Data. Tidak perlu Pulihkan Data.",
       "Data terjemahan disesuaikan dengan update game 1.9.0.2 (5 Nov). Setelah game di-update sampai lobi, cukup tekan Suntik Data.",
       "Event baru Blind Box Highlight Emote Heluo Hitam Putih ikut diterjemahkan: aturan, Pecahan & Token Heluo, deskripsi emote tiap hero, varian tersembunyi.",
       "Teks kartu kini menampilkan nama sumber daya dalam bahasa Indonesia, bukan Mandarin: \"Triumph: +1 Energi\", \"Saat naik level, EXP Taktisi +2\" (juga HP Taktisi). Istilah EXP/HP Taktisi diseragamkan di seluruh teks.",
@@ -15,6 +16,7 @@
       "Masih Mandarin: badge faksi di pop-up kartu, gambar nama taktisi di judul Lineup, dan tugas mingguan Battle Pass."
     ],
     "en": [
+      "Game updated to v1.9.3 (Nov 6): translation data matched to it. After updating the game to the lobby, press Inject Data. No need to Restore Data.",
       "Translation data updated for game update 1.9.0.2 (Nov 5). After updating the game to the lobby, just press Inject Data.",
       "The new Monochrome Heluo Highlight Emote Blind Box event is translated: rules, Heluo Shards & Tokens, per-hero emote descriptions, hidden variants.",
       "Card text now shows resource names in English instead of Chinese: \"Triumph: +1 Energy\", \"On level up, Chessplayer EXP +2\" (also Chessplayer HP). The EXP/HP terms are unified across all texts.",
