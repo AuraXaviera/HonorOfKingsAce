@@ -2,7 +2,7 @@
   "manifestVersion": "3.0",
   "appVersion": "2.0",
   "buildCode": 23,
-  "updatedAt": "2026-11-12T09:00:34Z",
+  "updatedAt": "2026-11-12T10:28:52Z",
   "gameApk": {
     "testedVersionCodes": [
       774472
@@ -153,19 +153,19 @@
       "format": "official-v2",
       "compat": {
         "1": {
-          "base": "A4F6BF8D7EC37568F1EAE13F2C249A3EC36ACE3F880256BD55682D07B2F0B812",
-          "installed": "53CCB1BB40469C9F2CE6F159E3801F6419CC145DF30E7346EAC72CF44CAB61A1",
-          "packageHash": "7929979210633926633",
+          "base": "9A079D05BA3178B499CE704AEA84FB1764D0AD0C0260CD48273F7D36E103CB34",
+          "installed": "F3AF2BB33C0335EAB61328A1E18FF5AF7802BA6B8AEAE192AC9FAAB3442BC46C",
+          "packageHash": "17477889714811246107",
           "alsoCompatible": [
-            "E120747D0D534846CEA257BAE42A72E582AA810B35205A6B807F7B585AC05801"
+            "97C9864627CFBAAE4E68EEF3D3D8E5D1A0B6FAA2CB6E8173F0459B168754607C"
           ]
         },
         "4": {
-          "base": "4E2783C161315D145B238F35FA68857B5AFF4C3E93F9374B054127507F97DDD3",
-          "installed": "FCCFEA42BCD7C32332CE9FEAB52C10AF6F37623CB625AF62A369FBE173035A26",
-          "packageHash": "18274436690501936128",
+          "base": "6BDFD6588E6DDA94ECB8595DFD3786F5397CCC624F323D12286471483D027388",
+          "installed": "6BB9759EA104E3A0A7470D477A9AF3FCD11FF348BAA7735411C28C72C085B831",
+          "packageHash": "3003206200471388679",
           "alsoCompatible": [
-            "CE9EE83B5898CD30EE130F9391EAAA15D4ECE25C6858D722375129779C83BD53"
+            "177DB621944494458C0E5BAD5FBE6D0D5C493A55E31F24DA62BAE500B2450880"
           ]
         },
         "10": {
@@ -178,18 +178,18 @@
         }
       },
       "dataBaseline": {
-        "build": "20261111114556",
-        "version": "1.10.0.1",
+        "build": "20261112144228",
+        "version": "1.10.1.2",
         "sizes": {
           "1": 39674,
           "4": 201422
         }
       },
-      "dataVersion": "1.10.0.1",
+      "dataVersion": "1.10.1.2",
       "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_id_v3.zip",
       "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_id_v3.zip",
-      "sha256": "4F2C68A47F02448410B51FDF9D3D83D7676E4FCA4F8802315B030B049F46BAB6",
-      "sizeBytes": 70927593,
+      "sha256": "97472C72C0279CFB5B592E52616E7913A69E5CDE18531692C1231661BDB6AB4D",
+      "sizeBytes": 70927691,
       "shardsIncluded": [
         "1",
         "4",
@@ -211,19 +211,19 @@
       "format": "official-v2",
       "compat": {
         "1": {
-          "base": "A4F6BF8D7EC37568F1EAE13F2C249A3EC36ACE3F880256BD55682D07B2F0B812",
-          "installed": "E120747D0D534846CEA257BAE42A72E582AA810B35205A6B807F7B585AC05801",
-          "packageHash": "7929979210633926633",
+          "base": "9A079D05BA3178B499CE704AEA84FB1764D0AD0C0260CD48273F7D36E103CB34",
+          "installed": "97C9864627CFBAAE4E68EEF3D3D8E5D1A0B6FAA2CB6E8173F0459B168754607C",
+          "packageHash": "17477889714811246107",
           "alsoCompatible": [
-            "53CCB1BB40469C9F2CE6F159E3801F6419CC145DF30E7346EAC72CF44CAB61A1"
+            "F3AF2BB33C0335EAB61328A1E18FF5AF7802BA6B8AEAE192AC9FAAB3442BC46C"
           ]
         },
         "4": {
-          "base": "4E2783C161315D145B238F35FA68857B5AFF4C3E93F9374B054127507F97DDD3",
-          "installed": "CE9EE83B5898CD30EE130F9391EAAA15D4ECE25C6858D722375129779C83BD53",
-          "packageHash": "18274436690501936128",
+          "base": "6BDFD6588E6DDA94ECB8595DFD3786F5397CCC624F323D12286471483D027388",
+          "installed": "177DB621944494458C0E5BAD5FBE6D0D5C493A55E31F24DA62BAE500B2450880",
+          "packageHash": "3003206200471388679",
           "alsoCompatible": [
-            "FCCFEA42BCD7C32332CE9FEAB52C10AF6F37623CB625AF62A369FBE173035A26"
+            "6BB9759EA104E3A0A7470D477A9AF3FCD11FF348BAA7735411C28C72C085B831"
           ]
         },
         "10": {
@@ -236,18 +236,18 @@
         }
       },
       "dataBaseline": {
-        "build": "20261111114556",
-        "version": "1.10.0.1",
+        "build": "20261112144228",
+        "version": "1.10.1.2",
         "sizes": {
           "1": 39674,
           "4": 201422
         }
       },
-      "dataVersion": "1.10.0.1",
+      "dataVersion": "1.10.1.2",
       "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_en_v3.zip",
       "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.0/golden_shards_en_v3.zip",
-      "sha256": "6846B5C3BACE3C1A7F4136505F129770DA826AEAE8E2329883F2A4429888D3C2",
-      "sizeBytes": 70944419,
+      "sha256": "BF943AD2CC772908EDD8E2F301A77A3B5BC99CA8B4837974C2C76B3EEBF0E6B4",
+      "sizeBytes": 70944457,
       "shardsIncluded": [
         "1",
         "4",

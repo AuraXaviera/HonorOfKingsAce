@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "version": "2026-11-12",
+  "version": "2026-11-12b",
   "date": "2026-11-12",
   "title": {
-    "id": "Zenith 2.0 (12 Nov): cocok dengan data game terbaru (1.10.0.1)",
-    "en": "Zenith 2.0 (Nov 12): matches the latest game data (1.10.0.1)"
+    "id": "Zenith 2.0 (12 Nov sore): cocok dengan data game terbaru (1.10.1.2)",
+    "en": "Zenith 2.0 (Nov 12, evening): matches the latest game data (1.10.1.2)"
   },
   "notes": {
     "id": [
-      "Game update (data 1.10.0.1): data terjemahan disesuaikan. Setelah game di-update sampai lobi, tekan Suntik Data. Tidak perlu Pulihkan Data.",
-      "173 teks baru diterjemahkan: talent & kartu baru (Kaisar Tiba, Era Emas, Start Gear Dewa, dll.), event Festival Duo, Super Weekend, Mode Cepat, peringatan permainan pasif.",
-      "Istilah 棋手 kini \"Kontestan\" (sebelumnya Taktisi), termasuk \"EXP Kontestan\" dan \"HP Kontestan\" di teks kartu.",
-      "Tombol lobi \"Battle Training\" kini juga bertuliskan \"MULAI GAME\".",
+      "Game update lagi (data 1.10.1.2): data terjemahan disesuaikan. Setelah game di-update sampai lobi, tekan Suntik Data. Tidak perlu Pulihkan Data.",
+      "Teks baru diterjemahkan: \"Main Tim Tanpa Turun Poin\".",
+      "Semua isi update 12 Nov pagi tetap ada: 173 teks baru, istilah \"Kontestan\", dan tombol lobi \"MULAI GAME\".",
       "Masih Mandarin: badge faksi di pop-up kartu, gambar nama kontestan di judul Lineup, dan tugas mingguan Battle Pass."
     ],
     "en": [
-      "Game updated (data 1.10.0.1): translation data matched to it. After updating the game to the lobby, press Inject Data. No need to Restore Data.",
-      "173 new texts translated: new talents & cards (Imperial Arrival, Golden Age, Divine Gear Start, etc.), Duo Festival event, Super Weekend, Quick Mode, passive-play warnings.",
+      "Game updated again (data 1.10.1.2): translation data matched to it. After updating the game to the lobby, press Inject Data. No need to Restore Data.",
+      "New text translated: \"No Rank Loss in Team Play\".",
+      "Everything from the Nov 12 morning update is kept: 173 new texts and the lobby \"MULAI GAME\" button.",
       "Still in Chinese: faction badges in card pop-ups, chessplayer name images in Lineup titles, and Battle Pass weekly tasks."
     ]
   }
