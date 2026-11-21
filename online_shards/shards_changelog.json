@@ -1,13 +1,14 @@
 {
   "schema": 1,
-  "version": "2026-11-19",
-  "date": "2026-11-19",
+  "version": "2026-11-21",
+  "date": "2026-11-21",
   "title": {
-    "id": "Zenith 2.1 (19 Nov): cocok dengan data game terbaru (1.11.2)",
-    "en": "Zenith 2.1 (Nov 19): matches the latest game data (1.11.2)"
+    "id": "Zenith 2.1 (21 Nov): perbaikan teks efek item & skill",
+    "en": "Zenith 2.1 (Nov 21): item & skill effect text fixes"
   },
   "notes": {
     "id": [
+      "Perbaikan 21 Nov: keterangan efek item dan skill Kontestan/hero di dalam pertandingan kembali bahasa Indonesia (sebelumnya ikut jadi Inggris), dan 67 terjemahan efek dirapikan. Nama item/kartu/skill tetap Inggris. Cukup tekan Suntik Data lagi.",
       "WAJIB Zenith Launcher 2.1: data terjemahan 1.11.2 hanya untuk versi ini. Pengguna Zenith 2.0 update dulu (unduh dari Discord Zenith), pasang menimpa, tidak perlu copot.",
       "Setelah game di-update sampai lobi, buka Zenith 2.1 lalu tekan Suntik Data. Tidak perlu Pulihkan Data.",
       "Judul kartu, talent, item, dan skill kini memakai nama Inggris (mis. Merger Bonus, Imperial Arrival); deskripsinya tetap bahasa Indonesia.",
@@ -15,6 +16,7 @@
       "Masih Mandarin: judul & catatan Pengumuman Pembaruan Kartu (dari server), beberapa judul aturan event dan Kotak Wish (tabel terkunci)."
     ],
     "en": [
+      "Nov 21 fix: Indonesian build item and skill effect descriptions are back in Indonesian. English build unchanged; no action needed.",
       "REQUIRES Zenith Launcher 2.1: the 1.11.2 translation data only works with this version. Zenith 2.0 users must update first (download from the Zenith Discord), install over the old one, no uninstall needed.",
       "After updating the game to the lobby, open Zenith 2.1 and press Inject Data. No need to Restore Data.",
       "118 new texts translated: Brocade Galaxy & Peerless Board event, ACE Blitz mode, Super Weekend, Top-Up, new items, and changed card descriptions.",

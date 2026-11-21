@@ -2,7 +2,7 @@
   "manifestVersion": "4.0",
   "appVersion": "2.1",
   "buildCode": 25,
-  "updatedAt": "2026-11-19T09:16:27Z",
+  "updatedAt": "2026-11-21T16:55:26Z",
   "gameApk": {
     "testedVersionCodes": [
       774472
@@ -272,7 +272,7 @@
       "compat": {
         "1": {
           "base": "F009C0B6A2A00D9CE83D58D3AB7590464752586769A3771234AEBE6D51CA34B3",
-          "installed": "D83D213CA48A558E063A7324A916617E07CD5A704C94ABD422393016FD8F03FE",
+          "installed": "D7BF2DE160AE42DD6C05264E0D0D01466A03F2A1B85D44FBBF8CF4FFCBD38385",
           "packageHash": "517320197000065767",
           "alsoCompatible": [
             "80098A130273B7F631E129A1A962C115EF257605729060F5D64380AEB5019CCF"
@@ -298,8 +298,8 @@
       "dataVersion": "1.11.0.2",
       "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.1/golden_shards_id_v4.zip",
       "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v2.1/golden_shards_id_v4.zip",
-      "sha256": "D238EA9160CD0F89375E241F9B1FB23B082AEB81C8C05E2BE75243C1A5D2E7FD",
-      "sizeBytes": 112643080,
+      "sha256": "A3D44F98716E910DC5D18E40FAB346C220E18B3EE7787A98AAF66611D6E67090",
+      "sizeBytes": 112637556,
       "shardsIncluded": [
         "1",
         "4",
@@ -325,7 +325,7 @@
           "installed": "80098A130273B7F631E129A1A962C115EF257605729060F5D64380AEB5019CCF",
           "packageHash": "517320197000065767",
           "alsoCompatible": [
-            "D83D213CA48A558E063A7324A916617E07CD5A704C94ABD422393016FD8F03FE"
+            "D7BF2DE160AE42DD6C05264E0D0D01466A03F2A1B85D44FBBF8CF4FFCBD38385"
           ]
         },
         "4": {
