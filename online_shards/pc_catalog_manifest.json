@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "kind": "zenith-pc-catalog",
+ "dataSeq": 2026112501,
+ "dataVersion": "2026-11-25",
+ "label": "25 Nov 2026",
+ "minPatcher": "3.0",
+ "publishedAt": "2026-11-25T10:56:39Z",
+ "releaseTag": "pc-data-2026112501",
+ "files": {
+  "catalog_id.json.gz": {
+   "sha256": "7174F315A87901E56EA784556AD2B1D3DF93AF55F58495B5B38BA9A00ECFD621",
+   "sizeBytes": 6080981,
+   "urls": [
+    "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/pc-data-2026112501/catalog_id.json.gz",
+    "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/pc_catalog/catalog_id.json.gz"
+   ]
+  },
+  "catalog_en.json.gz": {
+   "sha256": "EE0C56C717AA68F3B73125BD3DE637C5E90B49B00A240141633EAFF70AD67CAD",
+   "sizeBytes": 5967042,
+   "urls": [
+    "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/pc-data-2026112501/catalog_en.json.gz",
+    "https://raw.githubusercontent.com/AuraXaviera/HonorOfKingsAce/main/pc_catalog/catalog_en.json.gz"
+   ]
+  }
+ },
+ "changelog": {
+  "title": {
+   "id": "Data terjemahan 25 Nov 2026",
+   "en": "Translation data 25 Nov 2026"
+  },
+  "notes": {
+   "id": [],
+   "en": []
+  }
+ }
+}
