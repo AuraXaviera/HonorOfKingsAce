@@ -1,8 +1,8 @@
 {
-  "manifestVersion": "4.0",
-  "appVersion": "2.1",
-  "buildCode": 25,
-  "updatedAt": "2026-11-21T16:55:26Z",
+  "manifestVersion": "5.0",
+  "appVersion": "3.0",
+  "buildCode": 26,
+  "updatedAt": "2026-11-25T09:21:45Z",
   "gameApk": {
     "testedVersionCodes": [
       774472
@@ -365,13 +365,115 @@
       "bitExactVerified": false
     }
   },
+  "packagesV5": {
+    "id": {
+      "language": "id",
+      "displayName": "Bahasa Indonesia",
+      "fileName": "golden_shards_id_v4.zip",
+      "format": "official-v2",
+      "compat": {
+        "1": {
+          "base": "F16D60BAE48EBD7715404B9C1C2AC39A844770314A01E02EDD25C4B517F0EB9B",
+          "installed": "6102C3F112AACD82E1126671595C9C73B6EBB828DC5B6EE21E4DFE0207472AE5",
+          "packageHash": "1154426870874148002",
+          "alsoCompatible": [
+            "B72742BBFE98F46E3A3F22AC81A8C80484FD0724326D95F713A9A65DB582327D"
+          ]
+        },
+        "4": {
+          "base": "C4C3073C369DA1BD53465EFA2F5E1518A20D7847B57BD6B4AFDFD2C56EF89FDD",
+          "installed": "F0853DB818A5496684A0A48662D186C24E40450FD335AAFE4EB5E1081E233788",
+          "packageHash": "7182347614746346694",
+          "alsoCompatible": [
+            "C04DA6F9861365AB0E1B2168537A59AC9E7037D070FC97956C833AD28675554E"
+          ]
+        },
+        "10": {
+          "base": "F29A0037D980859F99D5335D96D408C5746A7737B9A8615E020EC44469EECF3B",
+          "installed": "F29A0037D980859F99D5335D96D408C5746A7737B9A8615E020EC44469EECF3B",
+          "packageHash": "6308907418329948347",
+          "alsoCompatible": [
+            "F29A0037D980859F99D5335D96D408C5746A7737B9A8615E020EC44469EECF3B"
+          ]
+        }
+      },
+      "dataVersion": "1.12.0.2",
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v3.0/golden_shards_id_v4.zip",
+      "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v3.0/golden_shards_id_v4.zip",
+      "sha256": "ED7CEBCDC5E96BEA10F388E2B9CF144178C8A825FE929D47D7A92188938E5802",
+      "sizeBytes": 124881551,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
+      "deltaPackages": [
+        "15",
+        "19",
+        "20",
+        "1050016095"
+      ],
+      "engine": "build_device_patch (mesin resmi PC patcher); tabel ber-checksum tidak ditulis ulang",
+      "bitExactVerified": false
+    },
+    "en": {
+      "language": "en",
+      "displayName": "Global English",
+      "fileName": "golden_shards_en_v4.zip",
+      "format": "official-v2",
+      "compat": {
+        "1": {
+          "base": "F16D60BAE48EBD7715404B9C1C2AC39A844770314A01E02EDD25C4B517F0EB9B",
+          "installed": "B72742BBFE98F46E3A3F22AC81A8C80484FD0724326D95F713A9A65DB582327D",
+          "packageHash": "1154426870874148002",
+          "alsoCompatible": [
+            "6102C3F112AACD82E1126671595C9C73B6EBB828DC5B6EE21E4DFE0207472AE5"
+          ]
+        },
+        "4": {
+          "base": "C4C3073C369DA1BD53465EFA2F5E1518A20D7847B57BD6B4AFDFD2C56EF89FDD",
+          "installed": "C04DA6F9861365AB0E1B2168537A59AC9E7037D070FC97956C833AD28675554E",
+          "packageHash": "7182347614746346694",
+          "alsoCompatible": [
+            "F0853DB818A5496684A0A48662D186C24E40450FD335AAFE4EB5E1081E233788"
+          ]
+        },
+        "10": {
+          "base": "F29A0037D980859F99D5335D96D408C5746A7737B9A8615E020EC44469EECF3B",
+          "installed": "F29A0037D980859F99D5335D96D408C5746A7737B9A8615E020EC44469EECF3B",
+          "packageHash": "6308907418329948347",
+          "alsoCompatible": [
+            "F29A0037D980859F99D5335D96D408C5746A7737B9A8615E020EC44469EECF3B"
+          ]
+        }
+      },
+      "dataVersion": "1.12.0.2",
+      "primaryUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v3.0/golden_shards_en_v4.zip",
+      "mirrorUrl": "https://github.com/AuraXaviera/HonorOfKingsAce/releases/download/v3.0/golden_shards_en_v4.zip",
+      "sha256": "EADC5B16EA7F94A498FF0A0E9BD9340AE4060F5115781A39F53ADDD84B4D41E6",
+      "sizeBytes": 125163162,
+      "shardsIncluded": [
+        "1",
+        "4",
+        "10"
+      ],
+      "deltaPackages": [
+        "15",
+        "19",
+        "20",
+        "1050016095"
+      ],
+      "engine": "build_device_patch (mesin resmi PC patcher); tabel ber-checksum tidak ditulis ulang",
+      "bitExactVerified": false
+    }
+  },
   "launcher": {
-    "versionCode": 25,
-    "versionName": "2.1",
+    "versionCode": 26,
+    "versionName": "3.0",
     "url": "",
     "message": {
-      "id": "Zenith Launcher 2.1 WAJIB untuk data terjemahan terbaru (game 1.11.2 ke atas). Nanzareth tersambung otomatis tanpa pairing ulang, pemasangan lebih tahan penolakan HP. Unduh dari Discord Zenith, pasang menimpa versi lama.",
-      "en": "Zenith Launcher 2.1 is REQUIRED for the latest translation data (game 1.11.2 and newer). Nanzareth reconnects automatically, installs are more resilient. Download from the Zenith Discord and install over the old version."
+      "id": "Zenith Launcher 3.0 WAJIB untuk data terjemahan terbaru (game 1.12 ke atas); versi lama tidak mendapat update terjemahan lagi. Baru: Nanzareth dengan 5 metode koneksi + panduan langkah demi langkah. Unduh dari Discord Zenith, pasang menimpa versi lama.",
+      "en": "Zenith Launcher 3.0 is REQUIRED for the latest translation data (game 1.12 and newer); older versions no longer receive translation updates. New: Nanzareth with 5 connection methods + step-by-step guides. Download from the Zenith Discord and install over the old version."
     }
   }
 }

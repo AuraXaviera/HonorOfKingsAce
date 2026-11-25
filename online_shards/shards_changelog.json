@@ -1,26 +1,26 @@
 {
   "schema": 1,
-  "version": "2026-11-21",
-  "date": "2026-11-21",
+  "version": "2026-11-25",
+  "date": "2026-11-25",
   "title": {
-    "id": "Zenith 2.1 (21 Nov): perbaikan teks efek item & skill",
-    "en": "Zenith 2.1 (Nov 21): item & skill effect text fixes"
+    "id": "Zenith 3.0 (25 Nov): data musim baru 1.12.0.2",
+    "en": "Zenith 3.0 (Nov 25): new season data 1.12.0.2"
   },
   "notes": {
     "id": [
-      "Perbaikan 21 Nov: keterangan efek item dan skill Kontestan/hero di dalam pertandingan kembali bahasa Indonesia (sebelumnya ikut jadi Inggris), dan 67 terjemahan efek dirapikan. Nama item/kartu/skill tetap Inggris. Cukup tekan Suntik Data lagi.",
-      "WAJIB Zenith Launcher 2.1: data terjemahan 1.11.2 hanya untuk versi ini. Pengguna Zenith 2.0 update dulu (unduh dari Discord Zenith), pasang menimpa, tidak perlu copot.",
-      "Setelah game di-update sampai lobi, buka Zenith 2.1 lalu tekan Suntik Data. Tidak perlu Pulihkan Data.",
-      "Judul kartu, talent, item, dan skill kini memakai nama Inggris (mis. Merger Bonus, Imperial Arrival); deskripsinya tetap bahasa Indonesia.",
-      "118 teks baru diterjemahkan: event Brocade Galaxy & Peerless Board, mode ACE Kilat, Super Weekend, Top-Up, item baru, dan deskripsi kartu yang berubah.",
-      "Masih Mandarin: judul & catatan Pengumuman Pembaruan Kartu (dari server), beberapa judul aturan event dan Kotak Wish (tabel terkunci)."
+      "WAJIB Zenith Launcher 3.0: data terjemahan 1.12.0.2 hanya untuk versi ini. Pengguna Zenith 2.1 update dulu (unduh dari Discord Zenith), pasang menimpa, tidak perlu copot.",
+      "Setelah game di-update sampai lobi, buka Zenith 3.0 lalu tekan Suntik Data.",
+      "93 teks baru diterjemahkan: Season Sprint, Super Weekend, Turnamen ACE, Aula Kemuliaan, ACE Blitz, Surprise Gacha, Skor Bersama, dan privasi status online.",
+      "Tombol lobi MULAI GAME diperbaiki untuk tampilan musim baru.",
+      "Istilah lebih konsisten, kode lineup, judul kartu Secret Technique, dan teks efek bergambar (popup kata kunci, Mission/Complete) kini terjemah.",
+      "Nanzareth 3.0: pilih satu dari 5 metode koneksi (Otomatis, Notifikasi, Manual, Kabel USB + PC, Sambung Ulang), lengkap dengan panduan langkah demi langkah."
     ],
     "en": [
-      "Nov 21 fix: Indonesian build item and skill effect descriptions are back in Indonesian. English build unchanged; no action needed.",
-      "REQUIRES Zenith Launcher 2.1: the 1.11.2 translation data only works with this version. Zenith 2.0 users must update first (download from the Zenith Discord), install over the old one, no uninstall needed.",
-      "After updating the game to the lobby, open Zenith 2.1 and press Inject Data. No need to Restore Data.",
-      "118 new texts translated: Brocade Galaxy & Peerless Board event, ACE Blitz mode, Super Weekend, Top-Up, new items, and changed card descriptions.",
-      "Still in Chinese: Card Update Announcement titles & notes (sent by the server), some event rule titles and the Wish Box (locked tables)."
+      "REQUIRES Zenith Launcher 3.0: the 1.12.0.2 translation data only works with this version. Zenith 2.1 users must update first (download from the Zenith Discord), install over the old one, no uninstall needed.",
+      "After updating the game to the lobby, open Zenith 3.0 and press Inject Data.",
+      "93 new texts translated: Season Sprint, Super Weekend, ACE Tournament, Hall of Glory, ACE Blitz, Surprise Gacha, Shared Score, and online-status privacy settings.",
+      "Lobby START GAME button fixed for the new season layout.",
+      "Nanzareth 3.0: choose one of 5 connection methods (Automatic, Notification, Manual, USB cable + PC, Reconnect), each with a step-by-step guide."
     ]
   }
 }
