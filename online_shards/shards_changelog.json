@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "version": "2026-11-25",
-  "date": "2026-11-25",
+  "version": "2026-11-26",
+  "date": "2026-11-26",
   "title": {
-    "id": "Zenith 3.0 (25 Nov): data musim baru 1.12.0.2",
-    "en": "Zenith 3.0 (Nov 25): new season data 1.12.0.2"
+    "id": "Zenith 3.0 (26 Nov): cocok dengan data game 1.12.0.3",
+    "en": "Zenith 3.0 (Nov 26): matches game data 1.12.0.3"
   },
   "notes": {
     "id": [
-      "WAJIB Zenith Launcher 3.0: data terjemahan 1.12.0.2 hanya untuk versi ini. Pengguna Zenith 2.1 update dulu (unduh dari Discord Zenith), pasang menimpa, tidak perlu copot.",
-      "Setelah game di-update sampai lobi, buka Zenith 3.0 lalu tekan Suntik Data.",
+      "Update 26 Nov: cocok dengan data game terbaru 1.12.0.3. Setelah game di-update sampai lobi, cukup tekan Suntik Data (tidak perlu Pulihkan Data).",
+      "1 teks baru diterjemahkan: \"Izinkan pemain bergabung ke tim King of Kings-ku\".",
       "93 teks baru diterjemahkan: Season Sprint, Super Weekend, Turnamen ACE, Aula Kemuliaan, ACE Blitz, Surprise Gacha, Skor Bersama, dan privasi status online.",
       "Tombol lobi MULAI GAME diperbaiki untuk tampilan musim baru.",
       "Istilah lebih konsisten, kode lineup, judul kartu Secret Technique, dan teks efek bergambar (popup kata kunci, Mission/Complete) kini terjemah.",
       "Nanzareth 3.0: pilih satu dari 5 metode koneksi (Otomatis, Notifikasi, Manual, Kabel USB + PC, Sambung Ulang), lengkap dengan panduan langkah demi langkah."
     ],
     "en": [
-      "REQUIRES Zenith Launcher 3.0: the 1.12.0.2 translation data only works with this version. Zenith 2.1 users must update first (download from the Zenith Discord), install over the old one, no uninstall needed.",
-      "After updating the game to the lobby, open Zenith 3.0 and press Inject Data.",
+      "Nov 26 update: matches the latest game data 1.12.0.3. After the game updates to the lobby, just press Inject Data (no need to Restore Data).",
+      "1 new text translated: \"Allow players to join my King of Kings team\".",
       "93 new texts translated: Season Sprint, Super Weekend, ACE Tournament, Hall of Glory, ACE Blitz, Surprise Gacha, Shared Score, and online-status privacy settings.",
       "Lobby START GAME button fixed for the new season layout.",
       "Nanzareth 3.0: choose one of 5 connection methods (Automatic, Notification, Manual, USB cable + PC, Reconnect), each with a step-by-step guide."
